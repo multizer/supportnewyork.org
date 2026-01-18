@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "stories": "Stories",
+    "notice": "Notice",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title1": "We help neighbors",
+    "title2": "with technology.",
+    "description": "Every Sunday, we visit seniors, people with disabilities, and low-income neighbors in New York City who need a little help with their devices, Wi-Fi, or apps.",
+    "noCatch": "There's no catch. No sales pitch. Just neighbors helping neighbors.",
+    "communitySundays": "Community Sundays",
+    "pilotDescription": "Our pilot program runs every Sunday in select NYC neighborhoods. We're testing and refining our service model before launching as a full nonprofit."
+  },
+  "about": {
+    "title": "About Us",
+    "description1": "Support New York is a community-based volunteer project offering free digital and tech help to seniors, people with disabilities, and low-income neighbors in New York City.",
+    "description2": "We are not a nonprofit (yet) — but we're working toward it. Right now, our services are offered personally, by trained volunteers who care.",
+    "description3": "Our \"Community Sundays\" program is a pilot project. It helps us test and refine our service model before launching a full nonprofit organization. By working directly with the community, we learn what works, what's needed, and how to better serve.",
+    "focusTitle": "We focus on:",
+    "focus1": "Helping people connect to Wi-Fi, set up smartphones and apps",
+    "focus2": "Providing light tech support at home",
+    "focus3": "Guiding seniors through common computer tasks (email, video calls, web forms)",
+    "quote": "This isn't a business. This is real help for real neighbors."
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Support New York volunteers offer free help with everyday technology challenges. All services are provided on Sundays only.",
+    "note": "All services are free. We focus on low-risk, non-invasive help. We don't handle financial accounts, passwords, or repairs that could cause damage.",
+    "items": {
+      "wifi": {
+        "title": "Wi-Fi & Internet",
+        "description": "Wi-Fi setup, troubleshooting connection issues"
+      },
+      "smartphone": {
+        "title": "Smartphones & Tablets",
+        "description": "Basic setup, installing apps, accessibility settings"
+      },
+      "videocall": {
+        "title": "Video Calls",
+        "description": "Setting up Zoom, FaceTime, WhatsApp video calls"
+      },
+      "email": {
+        "title": "Email & Communication",
+        "description": "Creating email accounts, sending attachments, calendar setup"
+      },
+      "hometech": {
+        "title": "Home Tech Help",
+        "description": "Universal remote setup, battery replacement, cord organizing"
+      },
+      "online": {
+        "title": "Online Tasks",
+        "description": "Filling out web forms, using YouTube, printing documents"
+      },
+      "accessibility": {
+        "title": "Accessibility",
+        "description": "Settings for low vision, hearing aids, mobility needs"
+      }
+    }
+  },
+  "stories": {
+    "title": "Stories from the Field",
+    "comingSoon": "Coming Soon",
+    "description": "Real stories, photos, and feedback from our Sunday service visits. Learn how small tech support can make a big difference.",
+    "checkBack": "We're collecting stories from our community. Check back soon!",
+    "quote": "Every Sunday, we open our doors and our hearts. Because technology shouldn't be a barrier — it should be a bridge to connection.",
+    "message": "Our Community Sundays aren't just about fixing devices. They're about building trust, sharing knowledge, and reminding our neighbors that they're not alone in this digital age."
+  },
+  "notice": {
+    "title": "Notice",
+    "comingSoon": "Announcements Coming Soon",
+    "description": "This is where we'll share important updates, volunteer opportunities, and ways you can support our mission.",
+    "stayTuned": "Stay tuned for news about our nonprofit journey and community events.",
+    "serviceAreaTitle": "Service Area Information",
+    "serviceAreaMessage": "Currently, we are only able to serve Manhattan and Brooklyn near Williamsburg. Service areas may change depending on circumstances. Please contact us by email in advance to confirm availability. Thank you."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "Want to ask a question, volunteer, or recommend someone who needs help? We'd love to hear from you.",
+    "email": "Email",
+    "facebook": "Facebook",
+    "wantToHelp": "Want to help?",
+    "volunteerDescription": "We're always looking for patient, tech-savvy volunteers who want to make a difference in their community. Reach out to learn more about joining our Sunday team."
+  },
+  "footer": {
+    "tagline": "Neighbors helping neighbors with technology.",
+    "disclaimer": "This is a community volunteer project, not a registered nonprofit (yet)."
+  }
+}
