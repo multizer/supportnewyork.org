@@ -18,6 +18,7 @@ export default function Header({ lang, dictionary }: HeaderProps) {
     { name: dictionary.nav.services, href: "#services" },
     { name: dictionary.nav.stories, href: "#stories" },
     { name: dictionary.nav.notice, href: "#notice" },
+    { name: dictionary.nav.howToApply, href: "#how-to-apply" },
     { name: dictionary.nav.contact, href: "#contact" },
   ];
 

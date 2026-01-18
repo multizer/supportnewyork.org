@@ -4,6 +4,7 @@ import {
   Services,
   Stories,
   Notice,
+  HowToApply,
   Contact,
 } from "@/components/sections";
 import { locales, type Locale } from "@/i18n/config";
@@ -25,6 +26,7 @@ export default async function Home({
       <Services dictionary={dictionary} />
       <Stories dictionary={dictionary} />
       <Notice dictionary={dictionary} />
+      <HowToApply dictionary={dictionary} />
       <Contact dictionary={dictionary} />
     </>
   );
