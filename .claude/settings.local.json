@@ -4,7 +4,14 @@
       "Bash(npm run build:*)",
       "Bash(npm run dev:*)",
       "Bash(taskkill:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git config:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(ssh-keygen:*)",
+      "Bash(~/.ssh/config <<'EOF'\nHost github.com\n  HostName github.com\n  User git\n  IdentityFile ~/.ssh/id_ed25519_github\nEOF)",
+      "Bash(git remote set-url:*)"
     ]
   }
 }
