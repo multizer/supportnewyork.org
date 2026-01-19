@@ -8,18 +8,18 @@
     "contact": "Contact"
   },
   "hero": {
-    "title1": "Helping neighbors",
+    "title1": "Helping neighbors,",
     "title2": "one Sunday at a time.",
-    "description": "Hi, I'm Kenny, the owner of Smilehandyman.com. While I spend my week working professionally, I've dedicated my Sundays to a personal volunteer project: visiting seniors and neighbors in NYC who need a little help with their devices, Wi-Fi, or apps.",
-    "noCatch": "Personal help with no catch, no sales pitch, and no fees. Just me using my skills to help our community.",
+    "description": "Hi, I’m Kenny, the owner of SmileHandyman.com. During the week, I work professionally — and on Sundays, I volunteer my time to help neighbors in NYC who need a little help with their devices, Wi-Fi, or everyday apps.",
+    "noCatch": "There’s no catch, no sales pitch, and no fees. Just me using my skills to help my neighbors.",
     "communitySundays": "Community Sundays",
-    "pilotDescription": "This project is a personal labor of love during my off-hours. I'm taking it one step at a time, with the hope of growing this into a formal nonprofit in the near future."
+    "pilotDescription": "This is a personal project I work on during my off-hours. I’m taking it one step at a time, with the hope of someday growing this into a nonprofit."
   },
   "about": {
     "title": "About Me & Why I Started This",
-    "description1": "Support New York isn't a big organization—it's a personal volunteer project that I, Kenny, started to give back to the city I live in.",
-    "description2": "Through my work at 'Smile Handyman,' I've met so many people who feel overwhelmed by modern technology. I realized that a little bit of my time on Sundays could make a huge difference in someone's daily life, so I decided to start visiting neighbors personally to offer free tech support.",
-    "description3": "Right now, this is a personal initiative I run during my spare time. However, my ultimate goal is to evolve this project into a registered nonprofit organization. Every Sunday I spend with my neighbors helps me learn how I can better serve this community in the future.",
+    "description1": "Support New York isn’t a big organization. It’s a personal volunteer effort I started to give back to the city I live in.",
+    "description2": "Through my work with Smile Handyman, I’ve met many people who feel overwhelmed by technology. I realized that spending a little time with someone — patiently — could make a real difference. So I decided to use my Sundays to help, one neighbor at a time.",
+    "description3": "Right now, this is something I run personally in my spare time. Each Sunday helps me learn how I can better serve my neighbors in the future.",
     "focusTitle": "What I usually help with:",
     "focus1": "Connecting to Wi-Fi and setting up smartphones or apps",
     "focus2": "Simple tech support and troubleshooting at home",
