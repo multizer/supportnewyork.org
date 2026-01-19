@@ -1,101 +1,101 @@
 {
   "nav": {
-    "about": "About",
-    "services": "Services",
-    "stories": "Stories",
+    "about": "About Me",
+    "services": "What I Help With",
+    "stories": "Field Stories",
     "notice": "Notice",
-    "howToApply": "How to Apply",
+    "howToApply": "How to Ask for Help",
     "contact": "Contact"
   },
   "hero": {
-    "title1": "We help neighbors",
-    "title2": "with technology.",
-    "description": "Every Sunday, we visit seniors, people with disabilities, and low-income neighbors in New York City who need a little help with their devices, Wi-Fi, or apps.",
-    "noCatch": "There's no catch. No sales pitch. Just neighbors helping neighbors.",
+    "title1": "Helping neighbors",
+    "title2": "one Sunday at a time.",
+    "description": "Hi, I'm Kenny, the owner of Smilehandyman.com. While I spend my week working professionally, I've dedicated my Sundays to a personal volunteer project: visiting seniors and neighbors in NYC who need a little help with their devices, Wi-Fi, or apps.",
+    "noCatch": "Personal help with no catch, no sales pitch, and no fees. Just me using my skills to help our community.",
     "communitySundays": "Community Sundays",
-    "pilotDescription": "Our pilot program runs every Sunday in select NYC neighborhoods. We're testing and refining our service model before launching as a full nonprofit."
+    "pilotDescription": "This project is a personal labor of love during my off-hours. I'm taking it one step at a time, with the hope of growing this into a formal nonprofit in the near future."
   },
   "about": {
-    "title": "About Us",
-    "description1": "Support New York is a community-based volunteer project offering free digital and tech help to seniors, people with disabilities, and low-income neighbors in New York City.",
-    "description2": "We are not a nonprofit (yet) — but we're working toward it. Right now, our services are offered personally, by trained volunteers who care.",
-    "description3": "Our \"Community Sundays\" program is a pilot project. It helps us test and refine our service model before launching a full nonprofit organization. By working directly with the community, we learn what works, what's needed, and how to better serve.",
-    "focusTitle": "We focus on:",
-    "focus1": "Helping people connect to Wi-Fi, set up smartphones and apps",
-    "focus2": "Providing light tech support at home",
-    "focus3": "Guiding seniors through common computer tasks (email, video calls, web forms)",
-    "quote": "This isn't a business. This is real help for real neighbors."
+    "title": "About Me & Why I Started This",
+    "description1": "Support New York isn't a big organization—it's a personal volunteer project that I, Kenny, started to give back to the city I live in.",
+    "description2": "Through my work at 'Smile Handyman,' I've met so many people who feel overwhelmed by modern technology. I realized that a little bit of my time on Sundays could make a huge difference in someone's daily life, so I decided to start visiting neighbors personally to offer free tech support.",
+    "description3": "Right now, this is a personal initiative I run during my spare time. However, my ultimate goal is to evolve this project into a registered nonprofit organization. Every Sunday I spend with my neighbors helps me learn how I can better serve this community in the future.",
+    "focusTitle": "What I usually help with:",
+    "focus1": "Connecting to Wi-Fi and setting up smartphones or apps",
+    "focus2": "Simple tech support and troubleshooting at home",
+    "focus3": "Guiding seniors through email, video calls, and basic computer tasks",
+    "quote": "This isn't a business. This is real, personal help for my neighbors."
   },
   "services": {
-    "title": "Our Services",
-    "description": "Support New York volunteers offer free help with everyday technology challenges. All services are provided on Sundays only.",
-    "note": "All services are free. We focus on low-risk, non-invasive help. We don't handle financial accounts, passwords, or repairs that could cause damage.",
+    "title": "What I Can Help You With",
+    "description": "On Sundays when I'm available, I offer free help with everyday technology challenges. This is my personal way of contributing to our neighborhood.",
+    "note": "All help is free and provided as a personal volunteer effort. I focus on low-risk, non-invasive help. For complex repairs or financial accounts, please consult a professional service.",
     "items": {
       "wifi": {
         "title": "Wi-Fi & Internet",
-        "description": "Wi-Fi setup, troubleshooting connection issues"
+        "description": "Setting up Wi-Fi and fixing connection problems"
       },
       "smartphone": {
         "title": "Smartphones & Tablets",
-        "description": "Basic setup, installing apps, accessibility settings"
+        "description": "Basic setup, installing apps, and showing you how to use them"
       },
       "videocall": {
         "title": "Video Calls",
-        "description": "Setting up Zoom, FaceTime, WhatsApp video calls"
+        "description": "Setting up Zoom, FaceTime, or WhatsApp to stay in touch with family"
       },
       "email": {
-        "title": "Email & Communication",
-        "description": "Creating email accounts, sending attachments, calendar setup"
+        "title": "Email & Online Basics",
+        "description": "Creating accounts, sending photos, and navigating the web"
       },
       "hometech": {
         "title": "Home Tech Help",
-        "description": "Universal remote setup, battery replacement, cord organizing"
+        "description": "Setting up remotes, changing batteries, or organizing cables"
       },
       "online": {
         "title": "Online Tasks",
-        "description": "Filling out web forms, using YouTube, printing documents"
+        "description": "Filling out forms, using YouTube, and printing documents"
       },
       "accessibility": {
         "title": "Accessibility",
-        "description": "Settings for low vision, hearing aids, mobility needs"
+        "description": "Adjusting settings for low vision, hearing, or mobility needs"
       }
     }
   },
   "stories": {
-    "title": "Stories from the Field",
+    "title": "Stories from My Sunday Visits",
     "comingSoon": "Coming Soon",
-    "description": "Real stories, photos, and feedback from our Sunday service visits. Learn how small tech support can make a big difference.",
-    "checkBack": "We're collecting stories from our community. Check back soon!",
-    "quote": "Every Sunday, we open our doors and our hearts. Because technology shouldn't be a barrier — it should be a bridge to connection.",
-    "message": "Our Community Sundays aren't just about fixing devices. They're about building trust, sharing knowledge, and reminding our neighbors that they're not alone in this digital age."
+    "description": "These are the personal stories and photos from my Sunday visits. It's incredibly rewarding to see how a little tech help can brighten someone's day.",
+    "checkBack": "I'm currently putting together some stories to share with you. Please check back soon!",
+    "quote": "Every Sunday, I'm not just fixing a device—I'm building a bridge to connection for my neighbors.",
+    "message": "Community Sundays are about more than just technology. They're about making sure our neighbors don't feel left behind in the digital age."
   },
   "notice": {
     "title": "Notice",
-    "comingSoon": "Announcements Coming Soon",
-    "description": "This is where we'll share important updates, volunteer opportunities, and ways you can support our mission.",
-    "stayTuned": "Stay tuned for news about our nonprofit journey and community events.",
-    "serviceAreaTitle": "Service Area Information",
-    "serviceAreaMessage": "Currently, we are only able to serve Manhattan and Brooklyn near Williamsburg. Service areas may change depending on circumstances. Please contact us by email in advance to confirm availability. Thank you."
+    "comingSoon": "Updates Coming Soon",
+    "description": "This is where I'll share updates on my journey from a personal project to a nonprofit, along with news about community events.",
+    "stayTuned": "Stay tuned as I work toward making this a more formal and sustainable initiative.",
+    "serviceAreaTitle": "Where I Can Visit",
+    "serviceAreaMessage": "Since I'm doing this personally, I'm currently focused on Manhattan and Williamsburg (Brooklyn). Please email me in advance to confirm if I can make it to your area!"
   },
   "howToApply": {
-    "title": "How to Request Service",
-    "description": "If you need help with technology, we're here for you. Send us an email with the following information:",
-    "step1": "What service you need (Wi-Fi setup, smartphone help, etc.)",
-    "step2": "Your location (neighborhood or address)",
-    "step3": "Your contact information (phone number or email)",
-    "availability": "Availability is limited, and scheduling is confirmed in advance by email.",
+    "title": "How to Request My Help",
+    "description": "If you need a hand with technology, I'm happy to help if I can. Please send me an email with:",
+    "step1": "What you need help with (e.g., Wi-Fi issues, smartphone setup)",
+    "step2": "Your general location (neighborhood)",
+    "step3": "How I can reach you (phone or email)",
+    "availability": "I do this during my personal free time, so availability is limited. I'll do my best to get back to you and schedule a visit.",
     "emailLabel": "Send your request to:"
   },
   "contact": {
     "title": "Get in Touch",
-    "description": "Want to ask a question, volunteer, or recommend someone who needs help? We'd love to hear from you.",
-    "email": "Email",
+    "description": "Have a question, want to volunteer with me, or know someone who needs help? I'd love to hear from you.",
+    "email": "Email Me",
     "facebook": "Facebook",
     "wantToHelp": "Want to help?",
-    "volunteerDescription": "We're always looking for patient, tech-savvy volunteers who want to make a difference in their community. Reach out to learn more about joining our Sunday team."
+    "volunteerDescription": "I'm always looking for patient people who want to join me in helping our community. Reach out if you'd like to join my Sunday team!"
   },
   "footer": {
-    "tagline": "Neighbors helping neighbors with technology.",
-    "disclaimer": "This is a community volunteer project, not a registered nonprofit (yet)."
+    "tagline": "Personal tech help for my neighbors.",
+    "disclaimer": "This is a personal volunteer project by Kenny (owner of Smilehandyman.com) and is not yet a registered nonprofit."
   }
 }
