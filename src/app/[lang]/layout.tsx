@@ -28,28 +28,73 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { lang } = await params;
   const isKorean = lang === "ko";
+  const baseUrl = "https://supportnewyork.org"; // Assuming this is the domain
+
+  const title = isKorean
+    ? "Support New York - 뉴욕 한인 무료 IT 봉사 & 기술 지원 (Kenny)"
+    : "Support New York - Free Tech Support for NYC Neighbors (by Kenny)";
+
+  const description = isKorean
+    ? "뉴욕 맨해튼, 브루클린 지역 시니어 및 이웃을 위한 케니(Kenny)의 무료 IT 자원봉사. 와이파이, 스마트폰, 앱 설정 등 디지털 도움을 드립니다."
+    : "Free personal tech support for seniors and neighbors in Manhattan and Brooklyn. Kenny (SmileHandyman) helps with Wi-Fi, smartphones, and app settings every Sunday.";
+
+  const keywords = isKorean
+    ? [
+      "뉴욕 한인 봉사", "맨해튼 한인", "브루클린 한인", "시니어 컴퓨터 도우미",
+      "무료 IT 지원", "뉴욕 자원봉사", "스마트폰 설정 도움", "와이파이 설치 봉사",
+      "커뮤니티 선데이", "케니 봉사", "Support New York", "IT 재능기부"
+    ]
+    : [
+      "free tech support NYC", "senior digital help", "Manhattan volunteer",
+      "Brooklyn community service", "Williamsburg tech aid", "free Wi-Fi setup",
+      "smartphone help for seniors", "Community Sundays", "Kenny volunteer",
+      "Support New York", "digital literacy NYC"
+    ];
 
   return {
-    title: isKorean
-      ? "Support New York - 이웃이 이웃을 돕습니다, 기술로"
-      : "Support New York - Neighbors Helping Neighbors with Technology",
-    description: isKorean
-      ? "뉴욕시의 시니어, 장애인, 저소득층 이웃을 위한 무료 디지털 및 기술 지원. 매주 일요일 커뮤니티 선데이 운영."
-      : "Free digital and tech help for seniors, people with disabilities, and low-income neighbors in New York City. Community Sundays every week.",
-    keywords: [
-      "tech support",
-      "seniors",
-      "NYC",
-      "volunteer",
-      "community",
-      "digital help",
-    ],
+    title,
+    description,
+    keywords,
+    metadataBase: new URL(baseUrl),
+    alternates: {
+      canonical: `/${lang}`,
+      languages: {
+        "en-US": "/en",
+        "ko-KR": "/ko",
+      },
+    },
     openGraph: {
       title: "Support New York",
-      description: isKorean
-        ? "이웃이 이웃을 돕습니다, 기술로"
-        : "Neighbors helping neighbors with technology",
+      description,
+      url: `${baseUrl}/${lang}`,
+      siteName: "Support New York",
+      locale: isKorean ? "ko_KR" : "en_US",
       type: "website",
+      images: [
+        {
+          url: "/images/opentoday.png",
+          width: 1200,
+          height: 630,
+          alt: "Support New York - Community Sundays",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: ["/images/opentoday.png"],
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
     },
   };
 }
@@ -64,9 +109,57 @@ export default async function LangLayout({
   const { lang: langParam } = await params;
   const lang = (locales.includes(langParam as Locale) ? langParam : "en") as Locale;
   const dictionary = await getDictionary(lang);
+  const isKorean = lang === "ko";
+  const description = isKorean
+    ? "뉴욕 맨해튼, 브루클린 지역 시니어 및 이웃을 위한 케니(Kenny)의 무료 IT 자원봉사. 와이파이, 스마트폰, 앱 설정 등 디지털 도움을 드립니다."
+    : "Free personal tech support for seniors and neighbors in Manhattan and Brooklyn. Kenny (SmileHandyman) helps with Wi-Fi, smartphones, and app settings every Sunday.";
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "VolunteerAction",
+    "name": isKorean ? "뉴욕 무료 IT 기술 지원 (Support New York)" : "Support New York - Free Tech Support",
+    "description": description,
+    "agent": {
+      "@type": "Person",
+      "name": "Kenny",
+      "url": "https://smilehandyman.com"
+    },
+    "actionStatus": "http://schema.org/ActiveActionStatus",
+    "location": {
+      "@type": "Place",
+      "name": "New York City",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "addressCountry": "US"
+      }
+    },
+    "category": ["Technical Support", "Digital Literacy", "Community Service"],
+    "provider": {
+      "@type": "Organization",
+      "name": "Support New York"
+    },
+    "areaServed": [
+      { "@type": "City", "name": "Manhattan" },
+      { "@type": "City", "name": "Brooklyn" },
+      { "@type": "City", "name": "Williamsburg" }
+    ],
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "availability": "http://schema.org/InStock",
+      "description": "Free community service every Sunday"
+    }
+  };
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header lang={lang} dictionary={dictionary} />
       <main>{children}</main>
       <Footer dictionary={dictionary} />
