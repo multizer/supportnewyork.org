@@ -1,10 +1,10 @@
 {
   "nav": {
-    "about": "About Me",
-    "services": "What I Help With",
-    "stories": "Field Stories",
+    "about": "About",
+    "services": "Services",
+    "stories": "Stories",
     "notice": "Notice",
-    "howToApply": "How to Ask for Help",
+    "howToApply": "Apply",
     "contact": "Contact"
   },
   "hero": {
