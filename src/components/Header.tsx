@@ -2,15 +2,13 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { type Locale, localeNames } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/getDictionary";
 
 interface HeaderProps {
-  lang: Locale;
   dictionary: Dictionary;
 }
 
-export default function Header({ lang, dictionary }: HeaderProps) {
+export default function Header({ dictionary }: HeaderProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
@@ -22,14 +20,12 @@ export default function Header({ lang, dictionary }: HeaderProps) {
     { name: dictionary.nav.contact, href: "#contact" },
   ];
 
-  const otherLang = lang === "en" ? "ko" : "en";
-
   return (
     <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
       <nav className="max-w-3xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link
-            href={`/${lang}`}
+            href="/"
             className="font-serif text-xl font-bold text-gray-900 hover:text-amber-600 transition-colors"
           >
             Support New York
@@ -50,13 +46,6 @@ export default function Header({ lang, dictionary }: HeaderProps) {
               ))}
             </ul>
 
-            {/* Language Switcher */}
-            <Link
-              href={`/${otherLang}`}
-              className="text-sm text-gray-500 hover:text-amber-600 transition-colors border-l border-gray-200 pl-6"
-            >
-              {localeNames[otherLang]}
-            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -107,15 +96,6 @@ export default function Header({ lang, dictionary }: HeaderProps) {
               ))}
             </ul>
 
-            {/* Mobile Language Switcher */}
-            <div className="mt-4 pt-4 border-t border-gray-100">
-              <Link
-                href={`/${otherLang}`}
-                className="text-sm text-gray-500 hover:text-amber-600 transition-colors"
-              >
-                {localeNames[otherLang]}
-              </Link>
-            </div>
           </div>
         )}
       </nav>

@@ -40,9 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const keywords = isKorean
     ? [
-      "뉴욕 한인 봉사", "맨해튼 한인", "브루클린 한인", "시니어 컴퓨터 도우미",
-      "무료 IT 지원", "뉴욕 자원봉사", "스마트폰 설정 도움", "와이파이 설치 봉사",
-      "커뮤니티 선데이", "케니 봉사", "Support New York", "IT 재능기부"
+      "뉴욕 무료컴퓨터 도우미", "뉴욕 컴퓨터 자원봉사"
     ]
     : [
       "free tech support NYC", "senior digital help", "Manhattan volunteer",
@@ -160,7 +158,7 @@ export default async function LangLayout({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <Header lang={lang} dictionary={dictionary} />
+      <Header dictionary={dictionary} />
       <main>{children}</main>
       <Footer dictionary={dictionary} />
     </>
