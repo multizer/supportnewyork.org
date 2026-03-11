@@ -11,7 +11,9 @@
       "Bash(git push:*)",
       "Bash(ssh-keygen:*)",
       "Bash(~/.ssh/config <<'EOF'\nHost github.com\n  HostName github.com\n  User git\n  IdentityFile ~/.ssh/id_ed25519_github\nEOF)",
-      "Bash(git remote set-url:*)"
+      "Bash(git remote set-url:*)",
+      "Bash(tasklist:*)",
+      "Bash(findstr:*)"
     ]
   }
 }
