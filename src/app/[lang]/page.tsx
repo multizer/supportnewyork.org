@@ -12,6 +12,9 @@ import { getDictionary } from "@/i18n/getDictionary";
 import { client } from "@/sanity/lib/client";
 import { STORIES_QUERY, NOTICES_QUERY } from "@/sanity/lib/queries";
 
+// Revalidate data every 60 seconds
+export const revalidate = 60;
+
 export default async function Home({
   params,
 }: {
