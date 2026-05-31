@@ -27,7 +27,7 @@ export default function Hero({ dictionary }: HeroProps) {
             <p className="text-amber-800 font-medium mb-1">
               {dictionary.hero.communitySundays}
             </p>
-            <p className="text-amber-700 text-sm">
+            <p className="text-amber-700 text-sm whitespace-pre-line">
               {dictionary.hero.pilotDescription}
             </p>
           </div>

@@ -10,21 +10,18 @@
   "hero": {
     "title1": "Helping neighbors,",
     "title2": "one Sunday at a time.",
-    "description": "Hi, I’m Kenny, the owner of SmileHandyman.com. During the week, I work professionally — and on Sundays, I volunteer my time to help neighbors in NYC who need a little help with their devices, Wi-Fi, or everyday apps.",
-    "noCatch": "There’s no catch, no sales pitch, and no fees. Just me using my skills to help my neighbors.",
+    "description": "Hi, I'm Kenny. I work in IT and technology support during the week, and on Sundays I volunteer my time to help neighbors in New York City with everyday technology, simple home projects, and practical tasks that can make life a little easier.",
+    "noCatch": "There's no catch, no sales pitch, and no fees. Just me using my skills and experience to help my neighbors.",
     "communitySundays": "Community Sundays",
-    "pilotDescription": "This is a personal project I work on during my off-hours. I’m taking it one step at a time, with the hope of someday growing this into a nonprofit."
+    "pilotDescription": "Community Sundays is a personal project I work on during my free time. I'm taking it one step at a time, learning how I can better serve my community while helping people who may need an extra hand.\n\nMy hope is that this effort will continue to grow and, someday, potentially become a nonprofit organization dedicated to helping New Yorkers."
   },
   "about": {
     "title": "About Me & Why I Started This",
-    "description1": "Support New York isn’t a big organization. It’s a personal volunteer effort I started to give back to the city I live in.",
-    "description2": "Through my work with Smile Handyman, I’ve met many people who feel overwhelmed by technology. I realized that spending a little time with someone — patiently — could make a real difference. So I decided to use my Sundays to help, one neighbor at a time.",
-    "description3": "Right now, this is something I run personally in my spare time. Each Sunday helps me learn how I can better serve my neighbors in the future.",
-    "focusTitle": "What I usually help with:",
-    "focus1": "Connecting to Wi-Fi and setting up smartphones or apps",
-    "focus2": "Simple tech support and troubleshooting at home",
-    "focus3": "Guiding seniors through email, video calls, and basic computer tasks",
-    "quote": "This isn't a business. This is real, personal help for my neighbors."
+    "description1": "Support New York isn't a large organization. It's a personal volunteer effort I started to give back to the city I call home.",
+    "description2": "Through my years working in technology support, I've met many people who feel overwhelmed by technology or simply need help with everyday tasks around the home. I realized that spending a little time with someone — patiently and respectfully — could make a meaningful difference.",
+    "description3": "So I decided to dedicate part of my Sundays to helping, one neighbor at a time.",
+    "description4": "Right now, this is something I run personally during my spare time. Each Sunday helps me learn more about the needs of my community and how I can better support people in the future.",
+    "quote": "I truly enjoy doing this, so please feel free to reach out!"
   },
   "services": {
     "title": "What I Can Help You With",
