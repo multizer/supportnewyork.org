@@ -10,53 +10,65 @@
   "hero": {
     "title1": "Helping neighbors,",
     "title2": "one Sunday at a time.",
-    "description": "Hi, I'm Kenny. I work in IT and technology support during the week, and on Sundays I volunteer my time to help neighbors in New York City with everyday technology, simple home projects, and practical tasks that can make life a little easier.",
-    "noCatch": "There's no catch, no sales pitch, and no fees. Just me using my skills and experience to help my neighbors.",
+    "subtitle": "One neighbor helping another.",
+    "description": "Hi, I'm Kenny.\n\nI spend my weekdays helping people with technology. On Sundays, I volunteer my time to help neighbors across New York City with everyday tech, light household help, and small practical tasks that can make life a little easier.",
+    "noCatch": "There's no catch, no sales pitch, and no fees.\n\nJust me using my skills and experience to help my neighbors.",
     "communitySundays": "Community Sundays",
-    "pilotDescription": "Community Sundays is a personal project I work on during my free time. I'm taking it one step at a time, learning how I can better serve my community while helping people who may need an extra hand.\n\nMy hope is that this effort will continue to grow and, someday, potentially become a nonprofit organization dedicated to helping New Yorkers."
+    "pilotDescription": "Community Sundays is a personal project I work on during my free time. I'm taking it one step at a time, learning how I can better serve my community while helping people who may need an extra hand.\n\nMy hope is that this project will grow naturally and, someday, may become a nonprofit dedicated to helping New Yorkers."
   },
   "about": {
     "title": "About Me & Why I Started This",
     "description1": "Support New York isn't a large organization. It's a personal volunteer effort I started to give back to the city I call home.",
-    "description2": "Through my years working in technology support, I've met many people who feel overwhelmed by technology or simply need help with everyday tasks around the home. I realized that spending a little time with someone — patiently and respectfully — could make a meaningful difference.",
+    "description2": "Through my work helping people with technology, I've met many people who feel overwhelmed by technology or simply need help with everyday tasks around the home. I realized that spending a little time with someone — patiently and respectfully — could make a meaningful difference.",
     "description3": "So I decided to dedicate part of my Sundays to helping, one neighbor at a time.",
     "description4": "Right now, this is something I run personally during my spare time. Each Sunday helps me learn more about the needs of my community and how I can better support people in the future.",
     "quote": "I truly enjoy doing this, so please feel free to reach out!"
   },
   "services": {
     "title": "What I Can Help You With",
-    "description": "On Sundays when I'm available, I offer free help with everyday technology challenges. This is my personal way of contributing to our neighborhood.",
-    "note": "All help is free and provided as a personal volunteer effort. I focus on low-risk, non-invasive help. For complex repairs or financial accounts, please consult a professional service.",
-    "items": {
-      "wifi": {
-        "title": "Wi-Fi & Internet",
-        "description": "Setting up Wi-Fi and fixing connection problems"
+    "description": "When I'm available on Sundays, I'm happy to help my neighbors with everyday technology, simple household tasks, and the little things that can make life a bit easier.",
+    "note": "All help is free and provided as a personal volunteer effort.\n\nI focus on low-risk, non-invasive help.\nFor complex repairs or financial accounts, please consult a professional service.\n\nIf I'm not the right person for the job, I'll gladly point you in the right direction.",
+    "notSureTitle": "Not sure where to start?",
+    "notSureDescription": "If it's a small everyday problem and I can safely help, I'm always happy to take a look.",
+    "categories": [
+      {
+        "title": "Everyday Technology",
+        "items": [
+          "Wi-Fi setup",
+          "Smartphones & tablets",
+          "Email & online basics",
+          "Video calls"
+        ]
       },
-      "smartphone": {
-        "title": "Smartphones & Tablets",
-        "description": "Basic setup, installing apps, and showing you how to use them"
+      {
+        "title": "Computer Help",
+        "items": [
+          "Computer help",
+          "Basic computer questions",
+          "Printing",
+          "File downloads",
+          "Email attachments",
+          "Using YouTube"
+        ]
       },
-      "videocall": {
-        "title": "Video Calls",
-        "description": "Setting up Zoom, FaceTime, or WhatsApp to stay in touch with family"
+      {
+        "title": "Light Household Help",
+        "items": [
+          "Changing batteries",
+          "Remote controls",
+          "Cord organization",
+          "Reading manuals",
+          "Light cleaning or window cleaning",
+          "Small household tasks"
+        ]
       },
-      "email": {
-        "title": "Email & Online Basics",
-        "description": "Creating accounts, sending photos, and navigating the web"
-      },
-      "hometech": {
-        "title": "Home Tech Help",
-        "description": "Setting up remotes, changing batteries, or organizing cables"
-      },
-      "online": {
-        "title": "Online Tasks",
-        "description": "Filling out forms, using YouTube, and printing documents"
-      },
-      "accessibility": {
+      {
         "title": "Accessibility",
-        "description": "Adjusting settings for low vision, hearing, or mobility needs"
+        "items": [
+          "Making phones, tablets, and computers easier to see, hear, and use."
+        ]
       }
-    }
+    ]
   },
   "stories": {
     "title": "Stories from My Sunday Visits",
@@ -89,10 +101,10 @@
     "email": "Email Me",
     "facebook": "Facebook",
     "wantToHelp": "Want to help?",
-    "volunteerDescription": "I'm always looking for patient people who want to join me in helping our community. Reach out if you'd like to join my Sunday team!"
+    "volunteerDescription": "I'm always happy to meet kind people who would like to volunteer with me on Sundays."
   },
   "footer": {
     "tagline": "Personal tech help for my neighbors.",
-    "disclaimer": "This is a personal volunteer project by Kenny (owner of SmileHandyman.com) and is not yet a registered nonprofit."
+    "disclaimer": "This is a personal volunteer project and is not yet a registered nonprofit."
   }
 }

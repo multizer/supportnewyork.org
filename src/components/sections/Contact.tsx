@@ -15,34 +15,39 @@ export default function Contact({ dictionary }: ContactProps) {
             {dictionary.contact.title}
           </h2>
 
-          <p className="text-lg text-gray-600 leading-relaxed mb-8">
+          <p className="text-lg text-gray-800 leading-relaxed mb-8">
             {dictionary.contact.description}
           </p>
 
           <div className="space-y-4">
-            <div className="flex items-center gap-4 p-4 bg-gray-50 rounded-lg border border-gray-100">
-              <div className="text-2xl">&#9993;</div>
+            <div className="flex items-center gap-4 p-5 bg-gray-50 rounded-lg border border-gray-200 shadow-xs">
+              <div className="text-3xl text-amber-850">&#9993;</div>
               <div>
-                <p className="font-semibold text-gray-900">
+                <p className="font-bold text-gray-900">
                   {dictionary.contact.email}
                 </p>
-                <p className="text-amber-600">
-                  smilehandymanny@gmail.com
+                <p className="text-lg">
+                  <a
+                    href="mailto:smilehandymanny@gmail.com"
+                    className="text-amber-800 hover:text-amber-950 underline font-bold transition-colors"
+                  >
+                    smilehandymanny@gmail.com
+                  </a>
                 </p>
               </div>
             </div>
 
-            <div className="flex items-center gap-4 p-4 bg-gray-50 rounded-lg border border-gray-100">
-              <div className="text-2xl">&#128172;</div>
+            <div className="flex items-center gap-4 p-5 bg-gray-50 rounded-lg border border-gray-200 shadow-xs">
+              <div className="text-3xl text-amber-850">&#128172;</div>
               <div>
-                <p className="font-semibold text-gray-900">
+                <p className="font-bold text-gray-900">
                   {dictionary.contact.facebook}
                 </p>
                 <a
                   href="https://www.facebook.com/supportnewyork"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-amber-600 hover:text-amber-700 transition-colors"
+                  className="text-amber-800 hover:text-amber-955 underline font-bold transition-colors text-lg"
                 >
                   facebook.com/supportnewyork
                 </a>
@@ -50,11 +55,11 @@ export default function Contact({ dictionary }: ContactProps) {
             </div>
           </div>
 
-          <div className="mt-8 p-6 bg-amber-50 rounded-lg border border-amber-100">
-            <h3 className="font-semibold text-amber-800 mb-2">
+          <div className="mt-8 p-6 bg-amber-50 rounded-xl border border-amber-200">
+            <h3 className="font-bold text-lg text-amber-900 mb-2">
               {dictionary.contact.wantToHelp}
             </h3>
-            <p className="text-sm text-amber-700">
+            <p className="text-base text-amber-950 leading-relaxed">
               {dictionary.contact.volunteerDescription}
             </p>
           </div>

@@ -15,23 +15,23 @@ export default function About({ dictionary }: AboutProps) {
             {dictionary.about.title}
           </h2>
 
-          <p className="text-lg text-gray-600 leading-relaxed mb-6">
+          <p className="text-lg text-gray-800 leading-relaxed mb-6">
             {dictionary.about.description1}
           </p>
 
-          <p className="text-lg text-gray-600 leading-relaxed mb-6">
+          <p className="text-lg text-gray-800 leading-relaxed mb-6">
             {dictionary.about.description2}
           </p>
 
-          <p className="text-lg text-gray-600 leading-relaxed mb-6">
+          <p className="text-lg text-gray-800 leading-relaxed mb-6">
             {dictionary.about.description3}
           </p>
 
-          <p className="text-lg text-gray-600 leading-relaxed mb-8">
+          <p className="text-lg text-gray-800 leading-relaxed mb-8">
             {dictionary.about.description4}
           </p>
 
-          <blockquote className="mt-8 pl-6 border-l-4 border-amber-400 italic text-gray-500">
+          <blockquote className="mt-8 pl-6 border-l-4 border-amber-400 italic text-gray-700 font-medium">
             &ldquo;{dictionary.about.quote}&rdquo;
           </blockquote>
         </div>
