@@ -48,10 +48,10 @@ export default function HowToApply({ dictionary }: HowToApplyProps) {
               </p>
               <p className="text-lg">
                 <a
-                  href="mailto:smilehandymanny@gmail.com"
+                  href="mailto:kennysam11354@gmail.com"
                   className="text-amber-800 hover:text-amber-950 underline font-bold transition-colors"
                 >
-                  smilehandymanny@gmail.com
+                  kennysam11354@gmail.com
                 </a>
               </p>
             </div>
