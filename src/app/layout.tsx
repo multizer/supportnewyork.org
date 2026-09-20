@@ -17,9 +17,9 @@ const openSans = Open_Sans({
 });
 
 const baseUrl = "https://supportnewyork.org";
-const siteTitle = "Free Tech Help in NYC | Support New York";
+const siteTitle = "Support New York | A Personal Volunteer Project";
 const siteDescription =
-  "Kenny’s personal volunteer project offering free help with computers, Wi-Fi, online forms, and everyday tech questions in Manhattan, Queens, and Brooklyn.";
+  "Kenny’s small personal project offering occasional, hands-on help with everyday technology in Manhattan, Queens, and Brooklyn.";
 
 export const metadata: Metadata = {
   title: siteTitle,
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Kenny Lee", url: baseUrl }],
   creator: "Kenny Lee",
   publisher: "Support New York",
-  category: "Community volunteer technology help",
+  category: "Personal volunteer project",
   alternates: {
     canonical: "/",
   },
@@ -91,31 +91,6 @@ export default async function RootLayout({
         "name": "Kenny Lee",
         "url": baseUrl,
         "image": `${baseUrl}/images/kenny-lee.png`
-      },
-      {
-        "@type": "Service",
-        "@id": `${baseUrl}/#volunteer-tech-help`,
-        "name": "Free Tech Help in New York City",
-        "description": siteDescription,
-        "url": baseUrl,
-        "serviceType": [
-          "Volunteer technology help",
-          "Computer and Wi-Fi help",
-          "Online form help",
-          "CCTV and video doorbell help"
-        ],
-        "provider": { "@id": `${baseUrl}/#kenny-lee` },
-        "areaServed": [
-          { "@type": "AdministrativeArea", "name": "Manhattan, New York" },
-          { "@type": "AdministrativeArea", "name": "Queens, New York" },
-          { "@type": "AdministrativeArea", "name": "Brooklyn, New York" }
-        ],
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD",
-          "description": "Volunteer help offered as Kenny’s time and availability allow."
-        }
       }
     ]
   };
