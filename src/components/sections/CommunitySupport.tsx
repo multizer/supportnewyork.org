@@ -6,9 +6,9 @@ interface CommunitySupportProps {
 
 export default function CommunitySupport({ dictionary }: CommunitySupportProps) {
   return (
-    <section className="py-16 px-6">
+    <section className="px-5 py-8 sm:px-6 sm:py-10">
       <div className="max-w-3xl mx-auto">
-        <hr className="section-divider" />
+        <hr className="section-divider !my-0 !mb-8" />
 
         <div className="prose">
           <div className="border-y border-amber-200 bg-amber-50/60 px-5 py-10 sm:px-8">

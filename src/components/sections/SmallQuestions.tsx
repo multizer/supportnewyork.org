@@ -6,7 +6,7 @@ interface SmallQuestionsProps {
 
 export default function SmallQuestions({ dictionary }: SmallQuestionsProps) {
   return (
-    <section className="px-6 py-10">
+    <section className="px-5 py-8 sm:px-6 sm:py-10">
       <div className="prose">
         <h2 className="mb-6 text-2xl font-bold text-gray-900 md:text-3xl">
           {dictionary.smallQuestions.title}

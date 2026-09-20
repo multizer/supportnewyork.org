@@ -7,9 +7,9 @@ interface AboutProps {
 
 export default function About({ dictionary }: AboutProps) {
   return (
-    <section id="about" className="scroll-mt-24 py-16 px-6">
+    <section id="about" className="scroll-mt-24 px-5 py-8 sm:px-6 sm:py-10">
       <div className="max-w-3xl mx-auto">
-        <hr className="section-divider" />
+        <hr className="section-divider !my-0 !mb-8" />
 
         <article className="prose">
           <div className="mb-10 grid items-start gap-8 sm:grid-cols-[220px_1fr]">

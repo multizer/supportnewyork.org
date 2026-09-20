@@ -18,9 +18,9 @@ interface StoriesProps {
 
 export default function Stories({ dictionary, stories = [] }: StoriesProps) {
   return (
-    <section id="stories" className="scroll-mt-24 py-16 px-6">
+    <section id="stories" className="scroll-mt-24 px-5 py-8 sm:px-6 sm:py-10">
       <div className="max-w-3xl mx-auto">
-        <hr className="section-divider" />
+        <hr className="section-divider !my-0 !mb-8" />
 
         <div className="prose">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">

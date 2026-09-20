@@ -9,7 +9,7 @@ export default function Footer({ dictionary }: FooterProps) {
 
   return (
     <footer className="bg-gray-50 border-t border-gray-100">
-      <div className="max-w-3xl mx-auto px-6 py-12">
+      <div className="max-w-3xl mx-auto px-5 py-8 sm:px-6 sm:py-10">
         <div className="text-center">
           <p className="font-serif text-lg font-bold text-gray-900 mb-2">
             Support New York
