@@ -2,7 +2,7 @@ import { defineField, defineType } from 'sanity'
 
 export const storyType = defineType({
   name: 'story',
-  title: 'Story (실천 사례)',
+  title: 'Sunday Story',
   type: 'document',
   fields: [
     defineField({
@@ -34,11 +34,10 @@ export const storyType = defineType({
       type: 'string',
       options: {
         list: [
-          { title: 'Korean', value: 'ko' },
           { title: 'English', value: 'en' },
         ],
       },
-      initialValue: 'ko',
+      initialValue: 'en',
     }),
     defineField({
       name: 'publishedAt',

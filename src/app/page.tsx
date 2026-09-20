@@ -1,7 +1,8 @@
 import {
   Hero,
+  SmallQuestions,
   About,
-  Services,
+  CommunitySupport,
   Stories,
   Notice,
   HowToApply,
@@ -16,7 +17,7 @@ export const revalidate = 60;
 
 export default async function Home() {
   const lang = "en"; // Root defaults to English
-  const dictionary = await getDictionary(lang);
+  const dictionary = await getDictionary();
 
   // Fetch data from Sanity with error handling
   let stories = [];
@@ -36,13 +37,13 @@ export default async function Home() {
   return (
     <>
       <Hero dictionary={dictionary} />
+      <SmallQuestions dictionary={dictionary} />
       <About dictionary={dictionary} />
-      <Services dictionary={dictionary} />
+      <CommunitySupport dictionary={dictionary} />
+      <HowToApply dictionary={dictionary} />
       <Stories dictionary={dictionary} stories={stories} />
       <Notice dictionary={dictionary} notices={notices} />
-      <HowToApply dictionary={dictionary} />
       <Contact dictionary={dictionary} />
     </>
   );
 }
-

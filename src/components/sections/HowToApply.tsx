@@ -6,7 +6,7 @@ interface HowToApplyProps {
 
 export default function HowToApply({ dictionary }: HowToApplyProps) {
   return (
-    <section id="how-to-apply" className="py-16 px-6">
+    <section id="how-to-apply" className="scroll-mt-24 py-16 px-6">
       <div className="max-w-3xl mx-auto">
         <hr className="section-divider" />
 
@@ -19,43 +19,46 @@ export default function HowToApply({ dictionary }: HowToApplyProps) {
             {dictionary.howToApply.description}
           </p>
 
-          <div className="space-y-3 mb-6">
-            <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-lg border border-gray-150">
-              <div className="text-xl mt-1 text-amber-800 font-bold">&#9312;</div>
-              <p className="text-gray-900 text-base md:text-lg leading-relaxed">{dictionary.howToApply.step1}</p>
+          <ol className="mb-8 list-decimal space-y-4 pl-7 text-base text-gray-800 marker:font-bold marker:text-amber-800 md:text-lg">
+            <li className="pl-2 leading-relaxed">{dictionary.howToApply.step1}</li>
+            <li className="pl-2 leading-relaxed">{dictionary.howToApply.step2}</li>
+            <li className="pl-2 leading-relaxed">{dictionary.howToApply.step3}</li>
+          </ol>
+
+          <div className="mb-8">
+            <h3 className="mb-2 text-xl font-bold text-gray-900">
+              {dictionary.howToApply.phoneLabel}
+            </h3>
+            <p className="py-2 text-3xl font-bold text-amber-800">
+              917-818-0994
+            </p>
+            <div className="mt-3">
+              <p className="text-lg font-semibold text-gray-900">{dictionary.contact.email}</p>
+              <p className="max-w-full break-words py-2 text-xl font-bold text-amber-800 sm:text-2xl">
+                kennysam11354@gmail.com
+              </p>
             </div>
-            <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-lg border border-gray-150">
-              <div className="text-xl mt-1 text-amber-800 font-bold">&#9313;</div>
-              <p className="text-gray-900 text-base md:text-lg leading-relaxed">{dictionary.howToApply.step2}</p>
-            </div>
-            <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-lg border border-gray-150">
-              <div className="text-xl mt-1 text-amber-800 font-bold">&#9314;</div>
-              <p className="text-gray-900 text-base md:text-lg leading-relaxed">{dictionary.howToApply.step3}</p>
-            </div>
+            <p className="mt-3 text-lg leading-relaxed text-gray-700">
+              {dictionary.howToApply.voicemailNote}
+            </p>
           </div>
 
-          <div className="p-6 bg-amber-50 rounded-lg border border-amber-200 mb-6">
-            <p className="text-amber-900 font-semibold text-center leading-relaxed">
+          <p className="mb-8 text-lg leading-relaxed text-gray-800">
+            {dictionary.howToApply.onBehalf}
+          </p>
+
+          <div className="mb-8 border-l-2 border-amber-400 pl-5">
+            <h3 className="mb-2 text-lg font-bold text-gray-900">
+              {dictionary.howToApply.serviceAreaTitle}
+            </h3>
+            <p className="mb-4 leading-relaxed text-gray-800">
+              {dictionary.howToApply.serviceAreaMessage}
+            </p>
+            <p className="text-gray-700 leading-relaxed">
               {dictionary.howToApply.availability}
             </p>
           </div>
 
-          <div className="flex items-center gap-4 p-5 bg-gray-50 rounded-lg border border-gray-200 shadow-xs">
-            <div className="text-3xl text-amber-800">&#9993;</div>
-            <div>
-              <p className="font-bold text-gray-900 text-base">
-                {dictionary.howToApply.emailLabel}
-              </p>
-              <p className="text-lg">
-                <a
-                  href="mailto:kennysam11354@gmail.com"
-                  className="text-amber-800 hover:text-amber-950 underline font-bold transition-colors"
-                >
-                  kennysam11354@gmail.com
-                </a>
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </section>

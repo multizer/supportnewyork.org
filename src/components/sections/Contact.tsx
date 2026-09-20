@@ -6,7 +6,7 @@ interface ContactProps {
 
 export default function Contact({ dictionary }: ContactProps) {
   return (
-    <section id="contact" className="py-16 px-6">
+    <section id="contact" className="scroll-mt-24 py-16 px-6">
       <div className="max-w-3xl mx-auto">
         <hr className="section-divider" />
 
@@ -19,47 +19,30 @@ export default function Contact({ dictionary }: ContactProps) {
             {dictionary.contact.description}
           </p>
 
-          <div className="space-y-4">
-            <div className="flex items-center gap-4 p-5 bg-gray-50 rounded-lg border border-gray-200 shadow-xs">
-              <div className="text-3xl text-amber-850">&#9993;</div>
-              <div>
-                <p className="font-bold text-gray-900">
+          <div className="space-y-5 border-y border-gray-200 py-6">
+            <div>
+              <p className="font-bold text-gray-900">{dictionary.howToApply.phoneLabel}</p>
+              <p className="py-2 text-3xl font-bold text-amber-800">
+                917-818-0994
+              </p>
+              <div className="mt-3">
+                <p className="text-lg font-semibold text-gray-900">
                   {dictionary.contact.email}
                 </p>
-                <p className="text-lg">
-                  <a
-                    href="mailto:kennysam11354@gmail.com"
-                    className="text-amber-800 hover:text-amber-950 underline font-bold transition-colors"
-                  >
+                  <p className="max-w-full break-words py-2 text-xl font-bold text-amber-800 sm:text-2xl">
                     kennysam11354@gmail.com
-                  </a>
-                </p>
+                  </p>
               </div>
+              <p className="mt-3 text-lg leading-relaxed text-gray-700">{dictionary.howToApply.voicemailNote}</p>
             </div>
 
-            <div className="flex items-center gap-4 p-5 bg-gray-50 rounded-lg border border-gray-200 shadow-xs">
-              <div className="text-3xl text-amber-850">&#128172;</div>
-              <div>
-                <p className="font-bold text-gray-900">
-                  {dictionary.contact.facebook}
-                </p>
-                <a
-                  href="https://www.facebook.com/supportnewyork"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-amber-800 hover:text-amber-955 underline font-bold transition-colors text-lg"
-                >
-                  facebook.com/supportnewyork
-                </a>
-              </div>
-            </div>
           </div>
 
-          <div className="mt-8 p-6 bg-amber-50 rounded-xl border border-amber-200">
-            <h3 className="font-bold text-lg text-amber-900 mb-2">
+          <div className="mt-9 border-l-2 border-amber-400 pl-5">
+            <h3 className="font-bold text-lg text-gray-900 mb-2">
               {dictionary.contact.wantToHelp}
             </h3>
-            <p className="text-base text-amber-950 leading-relaxed">
+            <p className="text-base text-gray-700 leading-relaxed">
               {dictionary.contact.volunteerDescription}
             </p>
           </div>

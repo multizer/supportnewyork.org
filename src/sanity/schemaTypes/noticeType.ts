@@ -2,7 +2,7 @@ import { defineField, defineType } from 'sanity'
 
 export const noticeType = defineType({
   name: 'notice',
-  title: 'Notice (공지사항)',
+  title: 'Sunday Update',
   type: 'document',
   fields: [
     defineField({
@@ -21,11 +21,10 @@ export const noticeType = defineType({
       type: 'string',
       options: {
         list: [
-          { title: 'Korean', value: 'ko' },
           { title: 'English', value: 'en' },
         ],
       },
-      initialValue: 'ko',
+      initialValue: 'en',
     }),
     defineField({
       name: 'isUrgent',

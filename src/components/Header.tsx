@@ -13,9 +13,7 @@ export default function Header({ dictionary }: HeaderProps) {
 
   const navItems = [
     { name: dictionary.nav.about, href: "#about" },
-    { name: dictionary.nav.services, href: "#services" },
     { name: dictionary.nav.stories, href: "#stories" },
-    { name: dictionary.nav.notice, href: "#notice" },
     { name: dictionary.nav.howToApply, href: "#how-to-apply" },
     { name: dictionary.nav.contact, href: "#contact" },
   ];
@@ -45,7 +43,6 @@ export default function Header({ dictionary }: HeaderProps) {
                 </li>
               ))}
             </ul>
-
           </div>
 
           {/* Mobile Menu Button */}
@@ -95,7 +92,6 @@ export default function Header({ dictionary }: HeaderProps) {
                 </li>
               ))}
             </ul>
-
           </div>
         )}
       </nav>

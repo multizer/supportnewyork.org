@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Dictionary } from "@/i18n/getDictionary";
 
 interface AboutProps {
@@ -6,35 +7,62 @@ interface AboutProps {
 
 export default function About({ dictionary }: AboutProps) {
   return (
-    <section id="about" className="py-16 px-6">
+    <section id="about" className="scroll-mt-24 py-16 px-6">
       <div className="max-w-3xl mx-auto">
         <hr className="section-divider" />
 
-        <div className="prose">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">
-            {dictionary.about.title}
-          </h2>
+        <article className="prose">
+          <div className="mb-10 grid items-start gap-8 sm:grid-cols-[220px_1fr]">
+            <figure className="mx-auto w-full max-w-[240px] sm:mx-0">
+              <div className="overflow-hidden rounded-2xl border border-stone-200 bg-stone-100">
+                <Image
+                  src="/images/kenny-lee.png"
+                  alt="Portrait of Kenny Lee"
+                  width={1227}
+                  height={1227}
+                  sizes="(max-width: 640px) 240px, 220px"
+                  className="aspect-square h-auto w-full object-cover"
+                  priority
+                />
+              </div>
+              <figcaption className="mt-3 text-center text-sm italic text-gray-500 sm:text-left">
+                {dictionary.about.photoCaption}
+              </figcaption>
+            </figure>
 
-          <p className="text-lg text-gray-800 leading-relaxed mb-6">
-            {dictionary.about.description1}
+            <div>
+              <h2 className="mb-6 text-3xl font-bold text-gray-900">
+                {dictionary.about.title}
+              </h2>
+              <p className="mb-5 text-lg leading-relaxed text-gray-800">
+                {dictionary.about.description1}
+              </p>
+              <p className="text-lg leading-relaxed text-gray-800">
+                {dictionary.about.description2}
+              </p>
+            </div>
+          </div>
+
+          <p className="mb-6 text-lg leading-relaxed text-gray-800">
+            {dictionary.about.career2}
           </p>
 
-          <p className="text-lg text-gray-800 leading-relaxed mb-6">
-            {dictionary.about.description2}
+          <p className="mb-6 text-lg leading-relaxed text-gray-800">
+            {dictionary.about.purpose1}
           </p>
 
-          <p className="text-lg text-gray-800 leading-relaxed mb-6">
-            {dictionary.about.description3}
+          <p className="mb-6 text-lg leading-relaxed text-gray-800">
+            {dictionary.about.purpose2}
           </p>
 
-          <p className="text-lg text-gray-800 leading-relaxed mb-8">
-            {dictionary.about.description4}
+          <p className="mt-8 text-lg leading-relaxed text-gray-800">
+            {dictionary.about.invitation}
           </p>
 
-          <blockquote className="mt-8 pl-6 border-l-4 border-amber-400 italic text-gray-700 font-medium">
-            &ldquo;{dictionary.about.quote}&rdquo;
+          <blockquote className="mt-10 border-l-4 border-amber-400 pl-6 font-medium italic leading-relaxed text-gray-700">
+            “{dictionary.about.quote}”
           </blockquote>
-        </div>
+        </article>
       </div>
     </section>
   );

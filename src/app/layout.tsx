@@ -19,12 +19,12 @@ const openSans = Open_Sans({
 const baseUrl = "https://supportnewyork.org";
 
 export const metadata: Metadata = {
-  title: "Support New York - Free Tech Support for NYC Neighbors (by Kenny)",
+  title: "Support New York - Kenny’s Sunday Volunteer Project",
   description:
-    "Free personal tech support for seniors and neighbors in Manhattan and Brooklyn. Kenny (SmileHandyman) helps with Wi-Fi, smartphones, and app settings every Sunday.",
+    "A personal Sunday volunteer project by Kenny Lee, offering friendly, practical technology help to neighbors in Manhattan, Queens, and Brooklyn.",
   keywords: [
     "free tech support NYC", "senior digital help", "Manhattan volunteer",
-    "Brooklyn community service", "Williamsburg tech aid", "free Wi-Fi setup",
+    "Brooklyn community service", "Queens tech help", "free Wi-Fi setup",
     "smartphone help for seniors", "Community Sundays", "Kenny volunteer",
     "Support New York", "digital literacy NYC"
   ],
@@ -33,8 +33,8 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Support New York",
-    description: "Free personal tech support for seniors and neighbors in Manhattan and Brooklyn. Kenny (SmileHandyman) helps with Wi-Fi, smartphones, and app settings every Sunday.",
+    title: "Support New York - One Neighbor Helping Another",
+    description: "Kenny Lee’s personal Sunday volunteer project offering friendly, practical technology help to neighbors in New York City.",
     url: baseUrl,
     siteName: "Support New York",
     locale: "en_US",
@@ -50,8 +50,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Support New York - Free Tech Support for NYC Neighbors (by Kenny)",
-    description: "Free personal tech support for seniors and neighbors in Manhattan and Brooklyn. Kenny (SmileHandyman) helps with Wi-Fi, smartphones, and app settings every Sunday.",
+    title: "Support New York - Kenny’s Sunday Volunteer Project",
+    description: "One neighbor helping another with everyday technology and practical problems in New York City.",
     images: ["/images/opentoday.png"],
   },
   robots: {
@@ -72,8 +72,8 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const dictionary = await getDictionary("en");
-  const description = "Free personal tech support for seniors and neighbors in Manhattan and Brooklyn. Kenny (SmileHandyman) helps with Wi-Fi, smartphones, and app settings every Sunday.";
+  const dictionary = await getDictionary();
+  const description = "A personal Sunday volunteer project by Kenny Lee, offering friendly, practical technology help to neighbors in Manhattan, Queens, and Brooklyn.";
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -82,8 +82,8 @@ export default async function RootLayout({
     "description": description,
     "agent": {
       "@type": "Person",
-      "name": "Kenny",
-      "url": "https://smilehandyman.com"
+      "name": "Kenny Lee",
+      "url": "https://supportnewyork.org"
     },
     "actionStatus": "http://schema.org/ActiveActionStatus",
     "location": {
@@ -98,13 +98,13 @@ export default async function RootLayout({
     },
     "category": ["Technical Support", "Digital Literacy", "Community Service"],
     "provider": {
-      "@type": "Organization",
-      "name": "Support New York"
+      "@type": "Person",
+      "name": "Kenny Lee"
     },
     "areaServed": [
       { "@type": "City", "name": "Manhattan" },
       { "@type": "City", "name": "Brooklyn" },
-      { "@type": "City", "name": "Williamsburg" }
+      { "@type": "City", "name": "Queens" }
     ],
     "offers": {
       "@type": "Offer",

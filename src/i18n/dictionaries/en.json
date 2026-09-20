@@ -1,110 +1,90 @@
 {
   "nav": {
-    "about": "About",
-    "services": "Services",
-    "stories": "Stories",
-    "notice": "Notice",
-    "howToApply": "Apply",
+    "about": "About Me",
+    "stories": "Sunday Stories",
+    "howToApply": "Ask Kenny",
     "contact": "Contact"
   },
   "hero": {
-    "title1": "Helping neighbors,",
-    "title2": "one Sunday at a time.",
-    "subtitle": "One neighbor helping another.",
-    "description": "Hi, I'm Kenny.\n\nI spend my weekdays helping people with technology. On Sundays, I volunteer my time to help neighbors across New York City with everyday tech, light household help, and small practical tasks that can make life a little easier.",
-    "noCatch": "There's no catch, no sales pitch, and no fees.\n\nJust me using my skills and experience to help my neighbors.",
-    "communitySundays": "Community Sundays",
-    "pilotDescription": "Community Sundays is a personal project I work on during my free time. I'm taking it one step at a time, learning how I can better serve my community while helping people who may need an extra hand.\n\nMy hope is that this project will grow naturally and, someday, may become a nonprofit dedicated to helping New Yorkers."
+    "eyebrow": "A little help when we can find the time",
+    "title1": "Hi, I’m Kenny.",
+    "title2": "What can we figure out together?",
+    "description": "I know my way around computers and a few other practical things. If something’s giving you trouble, feel free to ask. When we can find a time that works, I’m happy to take a look with you.",
+    "noCatch": "I offer my time freely because I enjoy helping. Small questions are welcome, too.",
+    "pilotDescription": "Sundays are usually when I have some time to lend a hand. We can talk about what you need and see what works for both of us.",
+    "meetMe": "A little about me"
+  },
+  "smallQuestions": {
+    "title": "Small Questions Are Always Welcome",
+    "description1": "Sometimes the hardest part is simply not having someone nearby to ask.",
+    "description2": "Maybe you need help filling out an online form, attaching a document to an email, making the text on your phone easier to read, or figuring out why something on the screen just doesn’t make sense. You may wonder, “Is this too small to ask about?”",
+    "answer": "It isn’t.",
+    "description3": "You don’t need to be good with technology or feel embarrassed about asking. Sometimes it just helps to have someone sit with you and work through it.",
+    "closing": "Just tell me what you’re trying to do. You don’t have to know the technical words."
   },
   "about": {
-    "title": "About Me & Why I Started This",
-    "description1": "Support New York isn't a large organization. It's a personal volunteer effort I started to give back to the city I call home.",
-    "description2": "Through my work helping people with technology, I've met many people who feel overwhelmed by technology or simply need help with everyday tasks around the home. I realized that spending a little time with someone — patiently and respectfully — could make a meaningful difference.",
-    "description3": "So I decided to dedicate part of my Sundays to helping, one neighbor at a time.",
-    "description4": "Right now, this is something I run personally during my spare time. Each Sunday helps me learn more about the needs of my community and how I can better support people in the future.",
-    "quote": "I truly enjoy doing this, so please feel free to reach out!"
+    "title": "A Little About Me",
+    "photoCaption": "That’s me—Kenny.",
+    "description1": "I came to the United States from Korea in my twenties, and I’ve now lived and worked in New York and New Jersey for more than 30 years.",
+    "description2": "When I stop and think about it, I’ve spent more of my life here than I did in Korea. This really is home to me.",
+    "career2": "For many years, I ran technology businesses here—first NeoCymax in New York and later Multizer in New Jersey. I helped people and small businesses with computers, Wi-Fi, security cameras (CCTV), and video doorbells. Those years taught me a lot about solving everyday problems, including the little ones that can be surprisingly frustrating.",
+    "purpose1": "Life hasn’t always gone as planned, but I’ve learned something about myself: helping someone with even a small problem can make my day, too.",
+    "purpose2": "Call it joy, purpose, or maybe even a little dopamine—but I’ve never forgotten the feeling of seeing someone light up because I was able to help. I enjoy that feeling, and I’d like more of those moments in my life. So when I have the time and energy, this is something I like to do.",
+    "invitation": "If there’s something I can safely help with, I’ll be glad to take a look. If it’s outside my experience, I’ll be honest and try to point you in the right direction.",
+    "quote": "If helping someone makes their day a little easier and mine a little happier, that feels like a pretty good way to spend a Sunday."
   },
-  "services": {
-    "title": "What I Can Help You With",
-    "description": "When I'm available on Sundays, I'm happy to help my neighbors with everyday technology, simple household tasks, and the little things that can make life a bit easier.",
-    "note": "All help is free and provided as a personal volunteer effort.\n\nI focus on low-risk, non-invasive help.\nFor complex repairs or financial accounts, please consult a professional service.\n\nIf I'm not the right person for the job, I'll gladly point you in the right direction.",
-    "notSureTitle": "Not sure where to start?",
-    "notSureDescription": "If it's a small everyday problem and I can safely help, I'm always happy to take a look.",
-    "categories": [
-      {
-        "title": "Everyday Technology",
-        "items": [
-          "Wi-Fi setup",
-          "Smartphones & tablets",
-          "Email & online basics",
-          "Video calls"
-        ]
-      },
-      {
-        "title": "Computer Help",
-        "items": [
-          "Computer help",
-          "Basic computer questions",
-          "Printing",
-          "File downloads",
-          "Email attachments",
-          "Using YouTube"
-        ]
-      },
-      {
-        "title": "Light Household Help",
-        "items": [
-          "Changing batteries",
-          "Remote controls",
-          "Cord organization",
-          "Reading manuals",
-          "Light cleaning or window cleaning",
-          "Small household tasks"
-        ]
-      },
-      {
-        "title": "Accessibility",
-        "items": [
-          "Making phones, tablets, and computers easier to see, hear, and use."
-        ]
-      }
+  "communitySupport": {
+    "eyebrow": "A little help from good people",
+    "title": "A Thank-You to Star Delta Electric",
+    "description2": "I know the team at Star Delta Electric through my project work. When I told them what I wanted to do here, they kindly offered to volunteer their time and electrical expertise, too.",
+    "description3": "I’m really grateful they offered to lend a hand. It means I have people I can turn to when a neighbor needs help with an electrical problem.",
+    "electricalTitle": "Electrical Questions Are Welcome, Too",
+    "electricalDescription1": "If you have an electrical problem—a light, outlet, switch, doorbell, or something else you’re not sure about—please feel free to ask.",
+    "electricalDescription2": "Tell me what’s happening, even if you’re not sure what’s wrong. If it needs an electrician, I can help connect you with Star Delta and work out with them what help is possible and when.",
+    "electricalDescription3": "If a permit, material cost, or work beyond the volunteer scope is required, we’ll explain everything clearly before anything moves forward.",
+    "partnerLink": "Visit Star Delta Electric"
+  },
+  "trust": {
+    "title": "Before a Visit",
+    "description": "It’s natural to want to know a little about someone before inviting them in. We’ll talk first so you and your family can feel comfortable.",
+    "items": [
+      "We’ll confirm the request, location, and appointment details before I visit.",
+      "I’m happy to show a photo ID when I arrive.",
+      "I will never ask for your banking information or ask you to tell me a private password.",
+      "A family member, friend, or caregiver is always welcome to be present."
     ]
   },
   "stories": {
     "title": "Stories from My Sunday Visits",
-    "comingSoon": "Coming Soon",
-    "description": "These are the personal stories and photos from my Sunday visits. It's incredibly rewarding to see how a little tech help can brighten someone's day.",
-    "checkBack": "I'm currently putting together some stories to share with you. Please check back soon!",
-    "quote": "Every Sunday, I'm not just fixing a device—I'm building a bridge to connection for my neighbors.",
-    "message": "Community Sundays are about more than just technology. They're about making sure our neighbors don't feel left behind in the digital age."
+    "emptyNote": "There aren’t any stories posted here yet. I hope to use this space for small moments from my Sunday visits—the things we figure out together and what I learn along the way."
   },
   "notice": {
-    "title": "Notice",
-    "comingSoon": "Updates Coming Soon",
-    "description": "This is where I'll share updates on my journey from a personal project to a nonprofit, along with news about community events.",
-    "stayTuned": "Stay tuned as I work toward making this a more formal and sustainable initiative.",
-    "serviceAreaTitle": "Where I Can Visit",
-    "serviceAreaMessage": "Since I'm doing this personally, I'm currently focused on Manhattan and Williamsburg (Brooklyn). Please email me in advance to confirm if I can make it to your area!"
+    "title": "Sunday Notes and Updates",
+    "stayTuned": "Thank you for following along."
   },
   "howToApply": {
-    "title": "How to Request My Help",
-    "description": "If you need a hand with technology, I'm happy to help if I can. Please send me an email with:",
-    "step1": "What you need help with (e.g., Wi-Fi issues, smartphone setup)",
-    "step2": "Your general location (neighborhood)",
-    "step3": "How I can reach you (phone or email)",
-    "availability": "I do this during my personal free time, so availability is limited. I'll do my best to get back to you and schedule a visit.",
-    "emailLabel": "Send your request to:"
+    "title": "Tell Me What’s Going On",
+    "description": "You can call and leave me a voicemail, or send an email—whichever feels easier. Just tell me:",
+    "phoneLabel": "Call Kenny and Leave a Message",
+    "voicemailNote": "I work during the week, so I usually can’t answer the phone. If I don’t pick up, please leave your name, phone number, and a little about what you need help with. I’ll check your message and get back to you when I can. There’s no need to explain everything perfectly.",
+    "onBehalf": "A family member, friend, or neighbor is welcome to contact me on your behalf. You can also get in touch for someone who could use a hand—with their permission.",
+    "serviceAreaTitle": "Where and When I Can Help",
+    "serviceAreaMessage": "I can visit Manhattan, Queens, and Brooklyn on Sundays by arrangement. Let me know your neighborhood so we can work out whether and when I can visit.",
+    "step1": "Your name and what you would like help with",
+    "step2": "Your general location or neighborhood",
+    "step3": "The best phone number or email for reaching you",
+    "availability": "This fits around my work and everyday life, so I won’t always be available. Feel free to ask, and we’ll see if we can find a time that works for both of us.",
+    "emailLabel": "Prefer email? Write to Kenny"
   },
   "contact": {
-    "title": "Get in Touch",
-    "description": "Have a question, want to volunteer with me, or know someone who needs help? I'd love to hear from you.",
+    "title": "Keep in Touch",
+    "description": "Have something you’d like to ask, or know someone who could use a hand? I’d be glad to hear from you.",
     "email": "Email Me",
-    "facebook": "Facebook",
-    "wantToHelp": "Want to help?",
-    "volunteerDescription": "I'm always happy to meet kind people who would like to volunteer with me on Sundays."
+    "wantToHelp": "Want to join me on a Sunday?",
+    "volunteerDescription": "I’m always happy to meet kind, patient people who would like to share their time and skills with a neighbor."
   },
   "footer": {
-    "tagline": "Personal tech help for my neighbors.",
-    "disclaimer": "This is a personal volunteer project and is not yet a registered nonprofit."
+    "tagline": "One neighbor helping another.",
+    "disclaimer": "This is Kenny’s personal volunteer project and is not a registered nonprofit."
   }
 }
