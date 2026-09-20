@@ -33,7 +33,7 @@ export default function HowToApply({ dictionary }: HowToApplyProps) {
               917-818-0994
             </p>
             <div className="mt-3">
-              <p className="text-lg font-semibold text-gray-900">{dictionary.contact.email}</p>
+              <p className="text-lg font-semibold text-gray-900">{dictionary.howToApply.emailLabel}</p>
               <p className="max-w-full break-words py-2 text-xl font-bold text-amber-800 sm:text-2xl">
                 kennysam11354@gmail.com
               </p>

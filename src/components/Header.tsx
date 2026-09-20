@@ -15,7 +15,6 @@ export default function Header({ dictionary }: HeaderProps) {
     { name: dictionary.nav.about, href: "#about" },
     { name: dictionary.nav.stories, href: "#stories" },
     { name: dictionary.nav.howToApply, href: "#how-to-apply" },
-    { name: dictionary.nav.contact, href: "#contact" },
   ];
 
   return (

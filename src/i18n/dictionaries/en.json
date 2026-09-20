@@ -2,8 +2,7 @@
   "nav": {
     "about": "About Me",
     "stories": "Sunday Stories",
-    "howToApply": "Ask Kenny",
-    "contact": "Contact"
+    "howToApply": "Ask Kenny"
   },
   "hero": {
     "eyebrow": "A little help when we can find the time",
@@ -77,11 +76,8 @@
     "emailLabel": "Prefer email? Write to Kenny"
   },
   "contact": {
-    "title": "Keep in Touch",
-    "description": "Have something you’d like to ask, or know someone who could use a hand? I’d be glad to hear from you.",
-    "email": "Email Me",
     "wantToHelp": "Want to join me on a Sunday?",
-    "volunteerDescription": "I’m always happy to meet kind, patient people who would like to share their time and skills with a neighbor."
+    "volunteerDescription": "If you’re a kind, patient person who would like to share some time or a useful skill with a neighbor, feel free to get in touch using the contact information above."
   },
   "footer": {
     "tagline": "One neighbor helping another.",
