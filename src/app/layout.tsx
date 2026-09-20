@@ -17,42 +17,43 @@ const openSans = Open_Sans({
 });
 
 const baseUrl = "https://supportnewyork.org";
+const siteTitle = "Free Tech Help in NYC | Support New York";
+const siteDescription =
+  "Kenny’s personal volunteer project offering free help with computers, Wi-Fi, online forms, and everyday tech questions in Manhattan, Queens, and Brooklyn.";
 
 export const metadata: Metadata = {
-  title: "Support New York - Kenny’s Sunday Volunteer Project",
-  description:
-    "A personal Sunday volunteer project by Kenny Lee, offering friendly, practical technology help to neighbors in Manhattan, Queens, and Brooklyn.",
-  keywords: [
-    "free tech support NYC", "senior digital help", "Manhattan volunteer",
-    "Brooklyn community service", "Queens tech help", "free Wi-Fi setup",
-    "smartphone help for seniors", "Community Sundays", "Kenny volunteer",
-    "Support New York", "digital literacy NYC"
-  ],
+  title: siteTitle,
+  description: siteDescription,
   metadataBase: new URL(baseUrl),
+  applicationName: "Support New York",
+  authors: [{ name: "Kenny Lee", url: baseUrl }],
+  creator: "Kenny Lee",
+  publisher: "Support New York",
+  category: "Community volunteer technology help",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Support New York - One Neighbor Helping Another",
-    description: "Kenny Lee’s personal Sunday volunteer project offering friendly, practical technology help to neighbors in New York City.",
+    title: siteTitle,
+    description: siteDescription,
     url: baseUrl,
     siteName: "Support New York",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "/images/opentoday.png",
-        width: 1200,
-        height: 630,
-        alt: "Support New York - Community Sundays",
+        url: "/images/kenny-lee.png",
+        width: 1195,
+        height: 1195,
+        alt: "Kenny Lee, founder of the Support New York personal volunteer project",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Support New York - Kenny’s Sunday Volunteer Project",
-    description: "One neighbor helping another with everyday technology and practical problems in New York City.",
-    images: ["/images/opentoday.png"],
+    title: siteTitle,
+    description: siteDescription,
+    images: ["/images/kenny-lee.png"],
   },
   robots: {
     index: true,
@@ -73,46 +74,50 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const dictionary = await getDictionary();
-  const description = "A personal Sunday volunteer project by Kenny Lee, offering friendly, practical technology help to neighbors in Manhattan, Queens, and Brooklyn.";
-
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "VolunteerAction",
-    "name": "Support New York - Free Tech Support",
-    "description": description,
-    "agent": {
-      "@type": "Person",
-      "name": "Kenny Lee",
-      "url": "https://supportnewyork.org"
-    },
-    "actionStatus": "http://schema.org/ActiveActionStatus",
-    "location": {
-      "@type": "Place",
-      "name": "New York City",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "New York",
-        "addressRegion": "NY",
-        "addressCountry": "US"
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": `${baseUrl}/#website`,
+        "url": baseUrl,
+        "name": "Support New York",
+        "description": siteDescription,
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Person",
+        "@id": `${baseUrl}/#kenny-lee`,
+        "name": "Kenny Lee",
+        "url": baseUrl,
+        "image": `${baseUrl}/images/kenny-lee.png`
+      },
+      {
+        "@type": "Service",
+        "@id": `${baseUrl}/#volunteer-tech-help`,
+        "name": "Free Tech Help in New York City",
+        "description": siteDescription,
+        "url": baseUrl,
+        "serviceType": [
+          "Volunteer technology help",
+          "Computer and Wi-Fi help",
+          "Online form help",
+          "CCTV and video doorbell help"
+        ],
+        "provider": { "@id": `${baseUrl}/#kenny-lee` },
+        "areaServed": [
+          { "@type": "AdministrativeArea", "name": "Manhattan, New York" },
+          { "@type": "AdministrativeArea", "name": "Queens, New York" },
+          { "@type": "AdministrativeArea", "name": "Brooklyn, New York" }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "Volunteer help offered as Kenny’s time and availability allow."
+        }
       }
-    },
-    "category": ["Technical Support", "Digital Literacy", "Community Service"],
-    "provider": {
-      "@type": "Person",
-      "name": "Kenny Lee"
-    },
-    "areaServed": [
-      { "@type": "City", "name": "Manhattan" },
-      { "@type": "City", "name": "Brooklyn" },
-      { "@type": "City", "name": "Queens" }
-    ],
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD",
-      "availability": "http://schema.org/InStock",
-      "description": "Free community service every Sunday"
-    }
+    ]
   };
 
   return (
