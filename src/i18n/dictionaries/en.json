@@ -8,15 +8,15 @@
     "eyebrow": "Free, friendly tech help in New York City",
     "title1": "Hi, I’m Kenny.",
     "title2": "What can we figure out together?",
-    "description": "I know my way around computers and a few other practical things. If something’s giving you trouble, feel free to ask. When we can find a time that works, I’m happy to take a look with you.",
-    "noCatch": "I offer my time freely because I enjoy helping. Small questions are welcome, too.",
-    "pilotDescription": "Sundays are usually when I have some time to lend a hand. We can talk about what you need and see what works for both of us.",
+    "description": "If you have a security camera, video doorbell, Wi-Fi connection, or another device around the home that needs setting up or figuring out, feel free to ask. I’ve worked with technology for many years, and when we can find a time that works, I’m happy to come by and take a look with you.",
+    "noCatch": "It doesn’t have to be an installation or a technical problem, either. If you’re stuck on a computer, an online form, or something on your phone, small questions are welcome, too.",
+    "pilotDescription": "I offer my time freely because I enjoy helping. Sundays are usually when I have some time, so tell me what’s going on and we’ll see what works for both of us.",
     "meetMe": "A little about me"
   },
   "smallQuestions": {
     "title": "Small Questions Are Always Welcome",
     "description1": "Sometimes the hardest part is simply not having someone nearby to ask.",
-    "description2": "Maybe you need help filling out an online form, attaching a document to an email, making the text on your phone easier to read, or figuring out why something on the screen just doesn’t make sense. You may wonder, “Is this too small to ask about?”",
+    "description2": "Maybe a security camera needs to be connected, a video doorbell isn’t working as expected, or the Wi-Fi doesn’t reach part of your home. Or perhaps you need help filling out an online form, attaching a document to an email, or figuring out something confusing on your phone or computer. You may wonder, “Is this too small to ask about?”",
     "answer": "It isn’t.",
     "description3": "You don’t need to be good with technology or feel embarrassed about asking. Sometimes it just helps to have someone sit with you and work through it.",
     "closing": "Just tell me what you’re trying to do. You don’t have to know the technical words."
