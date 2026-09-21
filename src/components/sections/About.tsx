@@ -16,7 +16,7 @@ export default function About({ dictionary }: AboutProps) {
             <figure className="mx-auto w-full max-w-[240px] sm:mx-0">
               <div className="overflow-hidden rounded-2xl border border-stone-200 bg-stone-100">
                 <Image
-                  src="/images/kenny-lee.png"
+                  src="/images/kenny-lee-2026.png"
                   alt="Portrait of Kenny Lee"
                   width={1627}
                   height={1762}
