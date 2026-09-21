@@ -18,8 +18,8 @@ export default function About({ dictionary }: AboutProps) {
                 <Image
                   src="/images/kenny-lee.png"
                   alt="Portrait of Kenny Lee"
-                  width={1227}
-                  height={1227}
+                  width={1627}
+                  height={1762}
                   sizes="(max-width: 640px) 240px, 220px"
                   className="aspect-square h-auto w-full object-cover"
                   priority

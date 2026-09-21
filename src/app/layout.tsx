@@ -43,8 +43,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/kenny-lee.png",
-        width: 1195,
-        height: 1195,
+        width: 1627,
+        height: 1762,
         alt: "Kenny Lee, founder of the Support New York personal volunteer project",
       },
     ],
