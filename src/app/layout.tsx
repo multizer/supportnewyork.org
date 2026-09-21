@@ -40,29 +40,22 @@ export const metadata: Metadata = {
     siteName: "Support New York",
     locale: "en_US",
     type: "website",
-    images: [
-      {
-        url: "/images/kenny-lee.png",
-        width: 1627,
-        height: 1762,
-        alt: "Kenny Lee, founder of the Support New York personal volunteer project",
-      },
-    ],
   },
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
     title: siteTitle,
     description: siteDescription,
-    images: ["/images/kenny-lee.png"],
   },
   robots: {
     index: true,
     follow: true,
+    noimageindex: true,
     googleBot: {
       index: true,
       follow: true,
+      noimageindex: true,
       "max-video-preview": -1,
-      "max-image-preview": "large",
+      "max-image-preview": "none",
       "max-snippet": -1,
     },
   },
@@ -89,8 +82,7 @@ export default async function RootLayout({
         "@type": "Person",
         "@id": `${baseUrl}/#kenny-lee`,
         "name": "Kenny Lee",
-        "url": baseUrl,
-        "image": `${baseUrl}/images/kenny-lee.png`
+        "url": baseUrl
       }
     ]
   };
