@@ -2,6 +2,7 @@ import type { Dictionary } from "@/i18n/getDictionary";
 import Image from "next/image";
 import { urlForImage } from "@/sanity/lib/image";
 import type { Image as SanityImage } from "sanity";
+import { SERVICE_PAUSED } from "@/config/serviceStatus";
 
 interface Story {
   _id: string;
@@ -53,7 +54,7 @@ export default function Stories({ dictionary, stories = [] }: StoriesProps) {
             ))
           ) : (
             <p className="text-lg leading-relaxed text-gray-700">
-              {dictionary.stories.emptyNote}
+              {SERVICE_PAUSED ? dictionary.stories.pausedNote : dictionary.stories.emptyNote}
             </p>
           )}
         </div>

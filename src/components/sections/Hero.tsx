@@ -1,4 +1,5 @@
 import type { Dictionary } from "@/i18n/getDictionary";
+import { SERVICE_PAUSED } from "@/config/serviceStatus";
 
 interface HeroProps {
   dictionary: Dictionary;
@@ -6,7 +7,14 @@ interface HeroProps {
 
 export default function Hero({ dictionary }: HeroProps) {
   return (
-    <section id="hero" className="px-5 pb-8 pt-28 sm:px-6 sm:pb-10 sm:pt-32">
+    <section
+      id="hero"
+      className={
+        SERVICE_PAUSED
+          ? "px-5 pb-8 pt-8 sm:px-6 sm:pb-10 sm:pt-10"
+          : "px-5 pb-8 pt-28 sm:px-6 sm:pb-10 sm:pt-32"
+      }
+    >
       <div className="max-w-3xl mx-auto">
         <div className="prose">
           <p className="mb-5 text-xs font-bold uppercase tracking-[0.2em] text-amber-700">

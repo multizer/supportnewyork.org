@@ -1,4 +1,5 @@
 import {
+  ServicePauseBanner,
   Hero,
   SmallQuestions,
   About,
@@ -36,6 +37,7 @@ export default async function Home() {
 
   return (
     <>
+      <ServicePauseBanner dictionary={dictionary} />
       <Hero dictionary={dictionary} />
       <SmallQuestions dictionary={dictionary} />
       <About dictionary={dictionary} />

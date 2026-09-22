@@ -4,6 +4,11 @@
     "stories": "Sunday Stories",
     "howToApply": "Ask Kenny"
   },
+  "servicePause": {
+    "badge": "Service Paused",
+    "message": "I've temporarily paused new Sunday visits. I'll update this banner as soon as I'm able to take requests again — thank you for understanding.",
+    "notAccepting": "I'm not currently accepting new requests, but you're welcome to leave a message for when I resume."
+  },
   "hero": {
     "eyebrow": "Free, friendly tech help in New York City",
     "title1": "Hi, I’m Kenny.",
@@ -53,7 +58,8 @@
   },
   "stories": {
     "title": "Stories from My Sunday Visits",
-    "emptyNote": "There aren’t any stories posted here yet. I hope to use this space for small moments from my Sunday visits—the things we figure out together and what I learn along the way."
+    "emptyNote": "There aren’t any stories posted here yet. I hope to use this space for small moments from my Sunday visits—the things we figure out together and what I learn along the way.",
+    "pausedNote": "Visits are paused for now, so there’s nothing to share yet. Once I’m able to resume, I’ll start filling this space with stories from our Sunday visits."
   },
   "notice": {
     "title": "Sunday Notes and Updates",

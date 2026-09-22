@@ -1,3 +1,4 @@
+export { default as ServicePauseBanner } from "./ServicePauseBanner";
 export { default as Hero } from "./Hero";
 export { default as SmallQuestions } from "./SmallQuestions";
 export { default as About } from "./About";
