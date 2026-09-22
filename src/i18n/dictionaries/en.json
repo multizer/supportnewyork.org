@@ -24,13 +24,11 @@
   "about": {
     "title": "A Little About Me",
     "photoCaption": "That’s me—Kenny.",
-    "description1": "I came to the United States from Korea in my twenties, and I’ve now lived and worked in New York and New Jersey for more than 30 years.",
-    "description2": "When I stop and think about it, I’ve spent more of my life here than I did in Korea. This really is home to me.",
-    "career2": "For many years, I ran technology businesses here—first NeoCymax in New York and later Multizer in New Jersey. I helped people and small businesses with computers, Wi-Fi, security cameras (CCTV), and video doorbells. Those years taught me a lot about solving everyday problems, including the little ones that can be surprisingly frustrating.",
-    "purpose1": "Life hasn’t always gone as planned, but I’ve learned something about myself: helping someone with even a small problem can make my day, too.",
-    "purpose2": "Call it joy, purpose, or maybe even a little dopamine—but I’ve never forgotten the feeling of seeing someone light up because I was able to help. I enjoy that feeling, and I’d like more of those moments in my life. So when I have the time and energy, this is something I like to do.",
-    "invitation": "If there’s something I can safely help with, I’ll be glad to take a look. If it’s outside my experience, I’ll be honest and try to point you in the right direction.",
-    "quote": "If helping someone makes their day a little easier and mine a little happier, that feels like a pretty good way to spend a Sunday."
+    "description1": "Originally from Korea, I’ve built my life and career in New York and New Jersey. This area is home to me, and helping people in the communities around me feels personal.",
+    "description2": "Over the years, I’ve run technology businesses—first NeoCymax in New York and later Multizer in New Jersey. I’ve helped people and small businesses with computers, Wi-Fi, security cameras, video doorbells, and other everyday technology needs. That experience taught me how to solve practical problems, including the small ones that can be surprisingly frustrating.",
+    "career2": "Over time, I’ve learned something simple about myself: when I can make someone’s day a little easier, it makes mine better, too.",
+    "purpose1": "Call it joy, purpose, or maybe even a little dopamine—but I’ve never forgotten the feeling of seeing someone’s relief when a frustrating problem is finally solved. Those moments genuinely make me happy, and I’d like more of them in my life. So when I have the time and energy, this is something I choose to do—for others, and for myself, too.",
+    "purpose2": "If there’s something I can safely help with, I’ll be glad to take a look. If it’s outside my experience, I’ll be honest and try to point you in the right direction."
   },
   "communitySupport": {
     "eyebrow": "A little help from good people",

@@ -54,14 +54,6 @@ export default function About({ dictionary }: AboutProps) {
           <p className="mb-6 text-lg leading-relaxed text-gray-800">
             {dictionary.about.purpose2}
           </p>
-
-          <p className="mt-8 text-lg leading-relaxed text-gray-800">
-            {dictionary.about.invitation}
-          </p>
-
-          <blockquote className="mt-10 border-l-4 border-amber-400 pl-6 font-medium italic leading-relaxed text-gray-700">
-            “{dictionary.about.quote}”
-          </blockquote>
         </article>
       </div>
     </section>
