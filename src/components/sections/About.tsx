@@ -12,8 +12,12 @@ export default function About({ dictionary }: AboutProps) {
         <hr className="section-divider !my-0 !mb-8" />
 
         <article className="prose">
-          <div className="mb-10 grid items-start gap-8 sm:grid-cols-[220px_1fr]">
-            <figure className="mx-auto w-full max-w-[240px] sm:mx-0">
+          <div className="mb-10 flex flex-col sm:block">
+            <h2 className="order-1 mb-6 text-3xl font-bold text-gray-900 sm:order-none">
+              {dictionary.about.title}
+            </h2>
+
+            <figure className="order-2 mx-auto mb-6 w-full max-w-[240px] sm:order-none sm:float-left sm:mx-0 sm:mb-2 sm:mr-8 sm:w-[220px]">
               <div className="overflow-hidden rounded-2xl border border-stone-200 bg-stone-100">
                 <Image
                   src="/images/kenny-lee-2026.png"
@@ -30,17 +34,13 @@ export default function About({ dictionary }: AboutProps) {
               </figcaption>
             </figure>
 
-            <div>
-              <h2 className="mb-6 text-3xl font-bold text-gray-900">
-                {dictionary.about.title}
-              </h2>
-              <p className="mb-5 text-lg leading-relaxed text-gray-800">
-                {dictionary.about.description1}
-              </p>
-              <p className="text-lg leading-relaxed text-gray-800">
-                {dictionary.about.description2}
-              </p>
-            </div>
+            <p className="order-3 mb-5 text-lg leading-relaxed text-gray-800 sm:order-none">
+              {dictionary.about.description1}
+            </p>
+            <p className="order-3 text-lg leading-relaxed text-gray-800 sm:order-none">
+              {dictionary.about.description2}
+            </p>
+            <div className="order-3 clear-both sm:order-none" />
           </div>
 
           <p className="mb-6 text-lg leading-relaxed text-gray-800">
