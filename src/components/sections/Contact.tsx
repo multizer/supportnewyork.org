@@ -6,7 +6,7 @@ interface ContactProps {
 
 export default function Contact({ dictionary }: ContactProps) {
   return (
-    <section id="contact" className="scroll-mt-24 px-5 py-8 sm:px-6 sm:py-10">
+    <section id="contact" className="scroll-mt-56 px-5 py-8 sm:px-6 sm:py-10">
       <div className="max-w-3xl mx-auto">
         <hr className="section-divider !my-0 !mb-8" />
 

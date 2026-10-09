@@ -6,8 +6,10 @@ interface AboutProps {
 }
 
 export default function About({ dictionary }: AboutProps) {
+  const description2Parts = dictionary.about.description2.split(/(NeoCymax|multizer\.com)/g);
+
   return (
-    <section id="about" className="scroll-mt-24 px-5 py-8 sm:px-6 sm:py-10">
+    <section id="about" className="scroll-mt-56 px-5 py-8 sm:px-6 sm:py-10">
       <div className="max-w-3xl mx-auto">
         <hr className="section-divider !my-0 !mb-8" />
 
@@ -38,7 +40,15 @@ export default function About({ dictionary }: AboutProps) {
               {dictionary.about.description1}
             </p>
             <p className="order-3 text-lg leading-relaxed text-gray-800 sm:order-none">
-              {dictionary.about.description2}
+              {description2Parts.map((part, index) =>
+                part === "NeoCymax" || part === "multizer.com" ? (
+                  <strong key={`${part}-${index}`} className="font-bold text-gray-950">
+                    {part}
+                  </strong>
+                ) : (
+                  part
+                ),
+              )}
             </p>
             <div className="order-3 clear-both sm:order-none" />
           </div>

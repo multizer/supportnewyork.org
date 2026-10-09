@@ -1,5 +1,4 @@
 import type { Dictionary } from "@/i18n/getDictionary";
-import { SERVICE_PAUSED } from "@/config/serviceStatus";
 
 interface HowToApplyProps {
   dictionary: Dictionary;
@@ -7,20 +6,14 @@ interface HowToApplyProps {
 
 export default function HowToApply({ dictionary }: HowToApplyProps) {
   return (
-    <section id="how-to-apply" className="scroll-mt-24 px-5 py-8 sm:px-6 sm:py-10">
+    <section id="how-to-apply" className="scroll-mt-56 px-5 py-8 sm:px-6 sm:py-10">
       <div className="max-w-3xl mx-auto">
         <hr className="section-divider !my-0 !mb-8" />
 
-        <div className={SERVICE_PAUSED ? "prose opacity-60" : "prose"}>
+        <div className="prose">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">
             {dictionary.howToApply.title}
           </h2>
-
-          {SERVICE_PAUSED && (
-            <p className="mb-6 rounded-md border border-amber-200 bg-amber-50 px-4 py-3 text-sm font-semibold text-amber-900">
-              {dictionary.servicePause.notAccepting}
-            </p>
-          )}
 
           <p className="text-lg text-gray-800 leading-relaxed mb-6">
             {dictionary.howToApply.description}

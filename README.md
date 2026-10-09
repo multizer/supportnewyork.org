@@ -1,5 +1,10 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Project context
+
+- [`docs/WEBSITE_CONTEXT.md`](docs/WEBSITE_CONTEXT.md) describes the site's purpose, page structure, complete visible copy, current CMS content, and interpretation rules for LLMs.
+- [`public/llms.txt`](public/llms.txt) is the public, machine-readable site context served at `/llms.txt`.
+
 ## Getting Started
 
 First, run the development server:

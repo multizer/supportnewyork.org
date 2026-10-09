@@ -5,9 +5,8 @@
     "howToApply": "Ask Kenny"
   },
   "servicePause": {
-    "badge": "Service Paused",
-    "message": "I've temporarily paused new Sunday visits. I'll update this banner as soon as I'm able to take requests again — thank you for understanding.",
-    "notAccepting": "I'm not currently accepting new requests, but you're welcome to leave a message for when I resume."
+    "greeting": "Hi, it’s Kenny.",
+    "message": "Visits are on pause for now. I’ll post an update when I’m back. Thanks for stopping by!"
   },
   "hero": {
     "eyebrow": "Free, friendly tech help in New York City",
@@ -30,7 +29,7 @@
     "title": "A Little About Me",
     "photoCaption": "That’s me—Kenny.",
     "description1": "Originally from Korea, I’ve built my life and career in New York and New Jersey. This area is home to me, and helping people in the communities around me feels personal.",
-    "description2": "Over the years, I’ve run technology businesses—first NeoCymax in New York and later Multizer in New Jersey. I’ve helped people and small businesses with computers, Wi-Fi, security cameras, video doorbells, and other everyday technology needs. That experience taught me how to solve practical problems, including the small ones that can be surprisingly frustrating.",
+    "description2": "Over the years, I’ve run technology businesses—first NeoCymax in New York and later multizer.com in New Jersey. I’ve helped people and small businesses with computers, Wi-Fi, security cameras, video doorbells, and other everyday technology needs. That experience taught me how to solve practical problems, including the small ones that can be surprisingly frustrating. I’m pretty handy, too. I have hands-on experience with electrical work and managing electrical projects, and I’m also good at small home repairs.",
     "career2": "Over time, I’ve learned something simple about myself: when I can make someone’s day a little easier, it makes mine better, too.",
     "purpose1": "Call it joy, purpose, or maybe even a little dopamine—but I’ve never forgotten the feeling of seeing someone’s relief when a frustrating problem is finally solved. Those moments genuinely make me happy, and I’d like more of them in my life. So when I have the time and energy, this is something I choose to do—for others, and for myself, too.",
     "purpose2": "If there’s something I can safely help with, I’ll be glad to take a look. If it’s outside my experience, I’ll be honest and try to point you in the right direction."
@@ -60,10 +59,6 @@
     "title": "Stories from My Sunday Visits",
     "emptyNote": "There aren’t any stories posted here yet. I hope to use this space for small moments from my Sunday visits—the things we figure out together and what I learn along the way.",
     "pausedNote": "Visits are paused for now, so there’s nothing to share yet. Once I’m able to resume, I’ll start filling this space with stories from our Sunday visits."
-  },
-  "notice": {
-    "title": "Sunday Notes and Updates",
-    "stayTuned": "Thank you for following along."
   },
   "howToApply": {
     "title": "Tell Me What’s Going On",

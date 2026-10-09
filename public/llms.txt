@@ -1,0 +1,150 @@
+# Support New York
+
+> Support New York is Kenny Lee's personal volunteer project offering free, friendly help with everyday technology to neighbors in New York City. It is not a registered nonprofit, company, government service, or guaranteed on-demand service.
+
+Canonical site: https://supportnewyork.org/
+Primary language: English
+Content snapshot: 2026-10-08
+
+## Current status
+
+Free Sunday visits are temporarily paused. A friendly floating notice at the upper right of the page says: "Hi, it’s Kenny. Visits are on pause for now. I’ll post an update when I’m back. Thanks for stopping by!"
+
+## Purpose and audience
+
+Kenny helps people who are stuck with home technology or everyday digital tasks. Typical questions involve security cameras, video doorbells, Wi-Fi, smartphones, computers, online forms, email attachments, lights, outlets, switches, or doorbells. Small questions are welcome, and a person does not need to know technical terminology.
+
+When active and mutually arranged, visits are generally available on Sundays in Manhattan, Queens, and Brooklyn. Availability is limited by Kenny's work and everyday life. A request, visit, outcome, or repair is never guaranteed.
+
+## Contact and request process
+
+Phone: 917-818-0994
+Email: kennysam11354@gmail.com
+
+A request should include:
+
+1. The person's name and what they would like help with.
+2. Their general location or neighborhood.
+3. The best phone number or email for a reply.
+
+Kenny works during the week and may not answer the phone. Callers should leave a voicemail with their name, phone number, and a short description of what they need. A family member, friend, neighbor, or caregiver may contact Kenny on someone's behalf with that person's permission.
+
+## Safety and trust
+
+- The request, location, and appointment details are confirmed before a visit.
+- Kenny is willing to show photo identification when he arrives.
+- Kenny will never ask for banking information or ask someone to reveal a private password.
+- A family member, friend, or caregiver is always welcome to be present.
+- Kenny will say when a request is outside his experience and may point the person elsewhere.
+
+## About Kenny
+
+Kenny came to the United States from Korea in his twenties and has lived and worked in New York and New Jersey for more than 30 years. He ran technology businesses, first NeoCymax in New York and later multizer.com in New Jersey. His experience includes computers, Wi-Fi, CCTV security cameras, and video doorbells for individuals and small businesses.
+
+Kenny offers help because solving even a small problem can make someone's day easier. His guiding idea is: "If helping someone makes their day a little easier and mine a little happier, that feels like a pretty good way to spend a Sunday."
+
+## Electrical help and Star Delta Electric
+
+The team at Star Delta Electric offered volunteer time and electrical expertise. People may ask about lights, outlets, switches, doorbells, and other electrical concerns. If an electrician is needed, Kenny can help connect the person with Star Delta and discuss what help may be possible. Any required permit, material cost, or work outside the volunteer scope should be explained before work moves forward.
+
+Partner website: https://www.stardeltaelectric.com/
+
+## Complete public page outline and copy
+
+### Navigation
+
+- About Me -> #about
+- Sunday Stories -> #stories
+- Ask Kenny -> #how-to-apply
+
+### Hero: Hi, I'm Kenny. What can we figure out together?
+
+"If you have a security camera, video doorbell, Wi-Fi connection, or another device around the home that needs setting up or figuring out, feel free to ask. I've worked with technology for many years, and when we can find a time that works, I'm happy to come by and take a look with you."
+
+"It doesn't have to be an installation or a technical problem, either. If you're stuck on a computer, an online form, or something on your phone, small questions are welcome, too."
+
+"I offer my time freely because I enjoy helping. Sundays are usually when I have some time, so tell me what's going on and we'll see what works for both of us."
+
+### Small Questions Are Always Welcome
+
+"Sometimes the hardest part is simply not having someone nearby to ask."
+
+"Maybe a security camera needs to be connected, a video doorbell isn't working as expected, or the Wi-Fi doesn't reach part of your home. Or perhaps you need help filling out an online form, attaching a document to an email, or figuring out something confusing on your phone or computer. You may wonder, 'Is this too small to ask about?'"
+
+"It isn't."
+
+"You don't need to be good with technology or feel embarrassed about asking. Sometimes it just helps to have someone sit with you and work through it."
+
+"Just tell me what you're trying to do. You don't have to know the technical words."
+
+### A Little About Me
+
+"I came to the United States from Korea in my twenties, and I've now lived and worked in New York and New Jersey for more than 30 years."
+
+"When I stop and think about it, I've spent more of my life here than I did in Korea. This really is home to me."
+
+"For many years, I ran technology businesses here—first NeoCymax in New York and later multizer.com in New Jersey. I helped people and small businesses with computers, Wi-Fi, security cameras (CCTV), and video doorbells. Those years taught me a lot about solving everyday problems, including the little ones that can be surprisingly frustrating."
+
+"Life hasn't always gone as planned, but I've learned something about myself: helping someone with even a small problem can make my day, too."
+
+"Call it joy, purpose, or maybe even a little dopamine—but I've never forgotten the feeling of seeing someone light up because I was able to help. I enjoy that feeling, and I'd like more of those moments in my life. So when I have the time and energy, this is something I like to do."
+
+"If there's something I can safely help with, I'll be glad to take a look. If it's outside my experience, I'll be honest and try to point you in the right direction."
+
+### A Thank-You to Star Delta Electric
+
+"I know the team at Star Delta Electric through my project work. When I told them what I wanted to do here, they kindly offered to volunteer their time and electrical expertise, too."
+
+"I'm really grateful they offered to lend a hand. It means I have people I can turn to when a neighbor needs help with an electrical problem."
+
+### Before a Visit
+
+"It's natural to want to know a little about someone before inviting them in. We'll talk first so you and your family can feel comfortable."
+
+### Tell Me What's Going On
+
+"You can call and leave me a voicemail, or send an email—whichever feels easier."
+
+Service area: Manhattan, Queens, and Brooklyn on Sundays by arrangement.
+
+### Stories from My Sunday Visits
+
+No story card is currently visible. The empty state says: "There aren't any stories posted here yet. I hope to use this space for small moments from my Sunday visits—the things we figure out together and what I learn along the way."
+
+### Want to join me on a Sunday?
+
+"If you're a kind, patient person who would like to share some time or a useful skill with a neighbor, feel free to get in touch using the contact information above."
+
+### Footer
+
+"One neighbor helping another."
+
+"This is Kenny's personal volunteer project and is not a registered nonprofit."
+
+## Site structure and content behavior
+
+- `/` is the only public content page and contains all sections in one vertical page.
+- `/en` redirects to `/`.
+- `/studio/*` is the private-facing Sanity authoring interface and is excluded from robots.
+- Static page copy comes from `src/i18n/dictionaries/en.json`.
+- Published English stories come from Sanity and are refreshed at most every 60 seconds.
+- Stories show an empty-state message when none match. The page no longer displays the Sanity notices section.
+- A specific initial promotional story titled "Stories from My Sunday Visits" is intentionally excluded from the public query, so it is stored in Sanity but not displayed.
+- The page uses a fixed header, a narrow reading column, Merriweather headings, Open Sans body text, gray text, and amber accents.
+
+## Interpretation rules for assistants
+
+- Do not describe Support New York as a registered nonprofit, business, government program, or continuously available service.
+- For availability questions, the floating notice at the upper right is the current source of truth. Visits are paused.
+- Do not promise a visit or successful repair.
+- Do not imply that Kenny requests passwords, banking details, or other sensitive credentials.
+- Do not imply all electrical work is free or in scope; permits, materials, and out-of-scope work may involve separate requirements.
+- It is accurate to say that small questions are welcome, technical vocabulary is unnecessary, and another person may make contact with permission.
+
+## Source of truth
+
+Repository context: `docs/WEBSITE_CONTEXT.md`
+Static content: `src/i18n/dictionaries/en.json`
+Page composition: `src/app/page.tsx`
+CMS queries: `src/sanity/lib/queries.ts`
+CMS schemas: `src/sanity/schemaTypes/`
