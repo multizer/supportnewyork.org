@@ -40,15 +40,28 @@ export default function About({ dictionary }: AboutProps) {
               {dictionary.about.description1}
             </p>
             <p className="order-3 text-lg leading-relaxed text-gray-800 sm:order-none">
-              {description2Parts.map((part, index) =>
-                part === "NeoCymax" || part === "multizer.com" ? (
-                  <strong key={`${part}-${index}`} className="font-bold text-gray-950">
-                    {part}
-                  </strong>
-                ) : (
-                  part
-                ),
-              )}
+              {description2Parts.map((part, index) => {
+                if (part === "NeoCymax") {
+                  return (
+                    <strong key={`${part}-${index}`} className="font-bold text-gray-950">
+                      {part}
+                    </strong>
+                  );
+                }
+                if (part === "multizer.com") {
+                  return (
+                    <Image
+                      key={`${part}-${index}`}
+                      src="/images/about-multizer-label.png"
+                      alt="Kenny's company"
+                      width={115}
+                      height={17}
+                      className="inline-block h-[1.1em] w-auto align-text-bottom"
+                    />
+                  );
+                }
+                return part;
+              })}
             </p>
             <div className="order-3 clear-both sm:order-none" />
           </div>
