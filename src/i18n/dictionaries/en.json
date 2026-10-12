@@ -32,7 +32,33 @@
     "description2": "Over the years, I’ve run technology businesses—first NeoCymax in New York and later multizer.com in New Jersey. I’ve helped people and small businesses with computers, Wi-Fi, security cameras, video doorbells, and other everyday technology needs. That experience taught me how to solve practical problems, including the small ones that can be surprisingly frustrating. I’m pretty handy, too. I have hands-on experience with electrical work and managing electrical projects, and I’m also good at small home repairs.",
     "career2": "Over time, I’ve learned something simple about myself: when I can make someone’s day a little easier, it makes mine better, too.",
     "purpose1": "Call it joy, purpose, or maybe even a little dopamine—but I’ve never forgotten the feeling of seeing someone’s relief when a frustrating problem is finally solved. Those moments genuinely make me happy, and I’d like more of them in my life. So when I have the time and energy, this is something I choose to do—for others, and for myself, too.",
-    "purpose2": "If there’s something I can safely help with, I’ll be glad to take a look. If it’s outside my experience, I’ll be honest and try to point you in the right direction."
+    "purpose2": "If there’s something I can safely help with, I’ll be glad to take a look. If it’s outside my experience, I’ll be honest and try to point you in the right direction.",
+    "verify": {
+      "summary": "A few traces from my working years",
+      "body": "I previously ran NeoCymax (New York) and Multizer LLC (New Jersey, a licensed telecommunications contractor). These independent directory listings are from that past work — feel free to check them:",
+      "links": [
+        {
+          "label": "Dun & Bradstreet listing for NeoCymax Computer Training (Flushing, NY)",
+          "url": "https://www.dandb.com/businessdirectory/neocymaxcomputertraining-flushing-ny-12516745.html"
+        },
+        {
+          "label": "Angi profile for Multizer, LLC",
+          "url": "https://www.angi.com/companylist/us/nj/palisades-park/multizer-llc-reviews-1.htm"
+        },
+        {
+          "label": "HomeGuide profile for Multizer",
+          "url": "https://homeguide.com/ny/new-york/computer-repair/multizer"
+        },
+        {
+          "label": "Thumbtack profile for Multizer LLC",
+          "url": "https://www.thumbtack.com/nj/palisades-park/home-security/multizer-llc/service/476403829336809488"
+        },
+        {
+          "label": "Google Maps listing for Multizer",
+          "url": "https://www.google.com/maps/place/Multizer/@40.0656209,-75.9536449,8z/data=!4m8!3m7!1s0x842ec36194e55131:0x4365ddf292bec148!8m2!3d40.073132!4d-74.6318776!9m1!1b1!16s%2Fg%2F11vrzz6x_f"
+        }
+      ]
+    }
   },
   "communitySupport": {
     "eyebrow": "A little help from good people",
